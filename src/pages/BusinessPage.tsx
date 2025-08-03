@@ -1,22 +1,27 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Button } from "@/components/ui/button";
+import CompanyHeroSectionB2B from "@/components/business/CompanyHeroSectionB2B";
+import WellnessPlatformSectionB2B from "@/components/business/WellnessPlatformSectionB2B";
+import TransformationSectionB2B from "@/components/business/TransformationSectionB2B";
+import CristianoSectionB2B from "@/components/business/CristianoSectionB2B";
+import SmartIntegrationSectionB2B from "@/components/business/SmartIntegrationSectionB2B";
+import IndustrySolutionsSectionB2B from "@/components/business/IndustrySolutionsSectionB2B";
+import WellnessSuiteSectionB2B from "@/components/business/WellnessSuiteSectionB2B";
+import PricingModelSectionB2B from "@/components/business/PricingModelSectionB2B";
 
 const BusinessPage = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <main className="min-h-screen flex items-center justify-center">
-        <div className="text-center space-y-8">
-          <h1 className="text-4xl lg:text-6xl font-bold">
-            in this page we will insert the b2b page content
-          </h1>
-          <Button asChild size="lg" className="text-lg px-8 py-6">
-            <a href="https://erakulisb2bcompany2.lovable.app/" target="_blank" rel="noopener noreferrer">
-              check the page
-            </a>
-          </Button>
-        </div>
+      <main>
+        <CompanyHeroSectionB2B />
+        <WellnessPlatformSectionB2B />
+        <TransformationSectionB2B />
+        <CristianoSectionB2B />
+        <SmartIntegrationSectionB2B />
+        <IndustrySolutionsSectionB2B />
+        <WellnessSuiteSectionB2B />
+        <PricingModelSectionB2B />
       </main>
       <Footer />
     </div>
