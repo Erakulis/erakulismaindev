@@ -147,7 +147,14 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Download now and begin your Journey to Better Health': 'Baixe agora e comece sua Jornada para uma Saúde Melhor',
           'Start': 'Começar',
           'Free': 'Grátis',
-          'Upgrade when ready': 'Atualize quando estiver pronto'
+          'Upgrade when ready': 'Atualize quando estiver pronto',
+          'Erakulis for Companies': 'Erakulis para Empresas',
+          'Schedule Demo': 'Agendar Demo',
+          'Traditional wellness programs failed to deliver results. Erakulis\' digital wellness solution delivers lasting impact on people\'s health and key business KPIs, backed by data & technology, and a holistic approach.': 'Os programas tradicionais de bem-estar falharam em entregar resultados. A solução digital de bem-estar da Erakulis proporciona um impacto duradouro na saúde das pessoas e nos KPIs-chave do negócio, apoiada por dados, tecnologia e uma abordagem holística.',
+          'Erakulis is the only digital wellness solution that integrates physical activity, mental, nutrition, stress and sleep in one single experience.': 'A Erakulis é a única solução digital de bem-estar que integra atividade física, mental, nutrição, stress e sono numa única experiência.',
+          'Cristiano Ronaldo\'s Formula for Corporate Well-Being & Success': 'Fórmula do Cristiano Ronaldo para Bem-estar Corporativo e Sucesso',
+          'Companies': 'Empresas',
+          'People': 'Pessoas'
         },
         'pt-br': {
           'Home': 'Início',

@@ -13,6 +13,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Slider } from "@/components/ui/slider";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { T } from "@/hooks/useTranslation";
 const ROISimulator = () => {
   const [employees, setEmployees] = useState([1000]);
   const [avgSalary, setAvgSalary] = useState([60000]);
@@ -275,11 +276,11 @@ const WhatErakulisAddsToggle = () => {
           <ToggleGroup type="single" value={selectedType} onValueChange={value => value && setSelectedType(value as "people" | "companies")} className="gap-0">
             <ToggleGroupItem value="companies" className="rounded-full px-8 py-3 text-lg font-medium data-[state=on]:bg-primary data-[state=on]:text-white hover:bg-gray-100 text-gray-600">
               <Building2 className="mr-2 h-5 w-5" />
-              Companies
+              <T>Companies</T>
             </ToggleGroupItem>
             <ToggleGroupItem value="people" className="rounded-full px-8 py-3 text-lg font-medium data-[state=on]:bg-primary data-[state=on]:text-white hover:bg-gray-100 text-gray-600">
               <Users className="mr-2 h-5 w-5" />
-              People
+              <T>People</T>
             </ToggleGroupItem>
           </ToggleGroup>
         </div>
@@ -724,16 +725,16 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Column - Text Content */}
             <div className="text-center lg:text-left">
-              <Badge className="mb-4 bg-primary/10 text-primary border-primary/20">Erakulis for Companies</Badge>
+              <Badge className="mb-4 bg-primary/10 text-primary border-primary/20"><T>Erakulis for Companies</T></Badge>
               <h1 className="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                Transform Wellbeing Into Measurable Business Results
+                <T>Transform Wellbeing Into Measurable Business Results</T>
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
 
 Traditional wellness programs failed to deliver results. Erakulis’ digital wellness solution delivers lasting impact on people's health and key business KPIs, backed by data & technology, and a holistic approach.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Button size="lg" className="text-lg px-8" onClick={() => window.open('https://calendar.app.google/XknyK8tYZCsQiC4Q8', '_blank')}>
-                  Schedule Demo <ArrowRight className="ml-2 h-5 w-5" />
+                  <T>Schedule Demo</T> <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </div>
             </div>
@@ -763,8 +764,8 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
       <section className="py-20 bg-gradient-to-b from-background to-secondary/5">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Next-Generation Wellness Platform</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Erakulis is the only digital wellness solution that integrates physical activity, mental, nutrition, stress and sleep in one single experience.</p>
+            <h2 className="text-4xl font-bold mb-4"><T>Next-Generation Wellness Platform</T></h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto"><T>Erakulis is the only digital wellness solution that integrates physical activity, mental, nutrition, stress and sleep in one single experience.</T></p>
           </div>
           
           <EcosystemDesignOption4 />
@@ -787,7 +788,7 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-foreground">
-              Erakulis <span className="text-primary">Transforms</span>
+              <T>Erakulis</T> <span className="text-primary"><T>Transforms</T></span>
             </h2>
           </div>
 
@@ -815,10 +816,10 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
             
             <div>
               <Badge className="mb-4 bg-primary/10 text-primary border-primary/20">
-                Founder Cristiano Ronaldo
+                <T>Founder Cristiano Ronaldo</T>
               </Badge>
               <h2 className="text-4xl font-bold mb-6">
-                Cristiano Ronaldo's Formula for Corporate Well-Being & Success
+                <T>Cristiano Ronaldo's Formula for Corporate Well-Being & Success</T>
               </h2>
               <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
                 Step into Cristiano Ronaldo's wellness ecosystem, reimagined for today's corporate teams. 
@@ -876,10 +877,10 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
               Erakulis Formula
             </Badge>
             <h2 className="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-primary via-primary/80 to-secondary bg-clip-text text-transparent">
-              Smart Wellness Integration
+              <T>Smart Wellness Integration</T>
             </h2>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Where professional expertise meets user-friendly wellness. Discover how our seamlessly integrated ecosystem creates lasting impact.
+              <T>Where professional expertise meets user-friendly wellness. Discover how our seamlessly integrated ecosystem creates lasting impact.</T>
             </p>
           </div>
 
