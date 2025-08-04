@@ -24,7 +24,7 @@ export const PricingSection = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 bg-gradient-glass backdrop-blur-md border border-primary/20 rounded-full mb-6">
             <Crown className="w-4 h-4 text-primary mr-2" />
-            <span className="text-sm font-medium text-primary">Choose Your Plan</span>
+            <span className="text-sm font-medium text-primary"><T>Choose Your Plan</T></span>
           </div>
           
           <h2 className="text-4xl lg:text-6xl font-bold mb-6">
@@ -35,8 +35,7 @@ export const PricingSection = () => {
           </h2>
           
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Begin your wellness journey with our free plan, then unlock the full potential 
-            of Erakulis with premium features.
+            <T>Begin your wellness journey with our free plan, then unlock the full potential of Erakulis with premium features.</T>
           </p>
         </div>
 
@@ -45,17 +44,17 @@ export const PricingSection = () => {
           {/* Free Plan */}
           <div className="bg-gradient-card backdrop-blur-sm border border-border rounded-3xl p-8 relative">
             <div className="text-center mb-8">
-              <h3 className="text-2xl font-bold text-foreground mb-2">Free Plan</h3>
+              <h3 className="text-2xl font-bold text-foreground mb-2"><T>Free Plan</T></h3>
               <div className="text-4xl font-bold text-primary mb-2">€0</div>
-              <p className="text-muted-foreground">Forever free</p>
+              <p className="text-muted-foreground"><T>Forever free</T></p>
             </div>
 
             <Button variant="default" size="lg" className="w-full mb-8">
-              Get Started Free
+              <T>Get Started Free</T>
             </Button>
 
             <div className="space-y-4">
-              <h4 className="font-semibold text-foreground">What's included:</h4>
+              <h4 className="font-semibold text-foreground"><T>What's included:</T></h4>
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
                   {feature.free ? (
@@ -64,7 +63,7 @@ export const PricingSection = () => {
                     <div className="w-5 h-5 border border-muted rounded-full flex-shrink-0" />
                   )}
                   <span className={`text-sm ${feature.free ? 'text-foreground' : 'text-muted-foreground line-through'}`}>
-                    {feature.name}
+                    <T>{feature.name}</T>
                   </span>
                 </div>
               ))}
@@ -82,16 +81,16 @@ export const PricingSection = () => {
             <div className="absolute top-4 right-4 md:top-6 md:right-6">
               <div className="bg-gradient-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
                 <Star className="w-3 h-3 fill-current" />
-                Most Popular
+                <T>Most Popular</T>
               </div>
             </div>
 
             <div className="text-center mb-8">
-              <h3 className="text-2xl font-bold text-white mb-2">Premium Plan</h3>
+              <h3 className="text-2xl font-bold text-white mb-2"><T>Premium Plan</T></h3>
               <div className="space-y-2">
                 <div className="text-4xl font-bold text-primary">€9.99</div>
-                <div className="text-sm text-white/80">per month</div>
-                <div className="text-sm text-white/80">or €99.90/year (save 17%)</div>
+                <div className="text-sm text-white/80"><T>per month</T></div>
+                <div className="text-sm text-white/80"><T>or €99.90/year (save 17%)</T></div>
               </div>
             </div>
 
@@ -100,21 +99,21 @@ export const PricingSection = () => {
               size="lg" 
               className="w-full mb-8 bg-white text-black hover:bg-white/90 font-semibold text-lg py-4 shadow-lg"
             >
-              Start Free Trial
+              <T>Start Free Trial</T>
             </Button>
 
             <div className="space-y-4">
-              <h4 className="font-semibold text-white">Everything in Free, plus:</h4>
+              <h4 className="font-semibold text-white"><T>Everything in Free, plus:</T></h4>
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-primary flex-shrink-0" />
                   <span className="text-sm text-white">
-                    {feature.name}
+                    <T>{feature.name}</T>
                   </span>
                   {!feature.free && (
                     <div className="ml-auto">
                       <span className="bg-gradient-primary text-primary-foreground px-2 py-1 rounded-full text-xs font-medium">
-                        Premium
+                        <T>Premium</T>
                       </span>
                     </div>
                   )}
@@ -125,10 +124,10 @@ export const PricingSection = () => {
             <div className="mt-8 p-4 bg-white/10 backdrop-blur-md border border-primary/20 rounded-xl">
               <div className="flex items-center gap-2 mb-2">
                 <Crown className="w-4 h-4 text-primary" />
-                <span className="text-sm font-semibold text-white">14-day free trial</span>
+                <span className="text-sm font-semibold text-white"><T>14-day free trial</T></span>
               </div>
               <p className="text-xs text-white/80">
-                No commitment. Cancel anytime during trial period.
+                <T>No commitment. Cancel anytime during trial period.</T>
               </p>
             </div>
           </div>
@@ -137,7 +136,7 @@ export const PricingSection = () => {
         {/* Trust Indicators */}
         <div className="text-center mt-16">
           <p className="text-sm text-muted-foreground mb-6">
-            Trusted by passionate users worldwide
+            <T>Trusted by passionate users worldwide</T>
           </p>
           <div className="flex justify-center items-center gap-2">
             {[...Array(5)].map((_, i) => (

@@ -1,4 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { T } from "@/hooks/useTranslation";
 
 export const FAQSection = () => {
   const faqs = [
@@ -41,7 +42,7 @@ export const FAQSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Frequently Asked Questions
+            <T>Frequently Asked Questions</T>
           </h2>
         </div>
 
@@ -50,10 +51,10 @@ export const FAQSection = () => {
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="border border-gray-200 rounded-xl px-6">
                 <AccordionTrigger className="text-left font-semibold text-foreground hover:no-underline py-6">
-                  {faq.question}
+                  <T>{faq.question}</T>
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-600 leading-relaxed pb-6">
-                  {faq.answer}
+                  <T>{faq.answer}</T>
                 </AccordionContent>
               </AccordionItem>
             ))}
