@@ -20,49 +20,61 @@ import { StickyQRCode } from "@/components/App/StickyQRCode";
 import { MobileInstallBanner } from "@/components/App/MobileInstallBanner";
 
 export default function Index() {
+  console.log("App component loading...");
   const [showMobileBanner, setShowMobileBanner] = useState(false);
   const heroRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setShowMobileBanner(!entry.isIntersecting);
-      },
-      { threshold: 0.1 }
-    );
+    console.log("App component useEffect running...");
+    try {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          setShowMobileBanner(!entry.isIntersecting);
+        },
+        { threshold: 0.1 }
+      );
 
-    if (heroRef.current) {
-      observer.observe(heroRef.current);
+      if (heroRef.current) {
+        observer.observe(heroRef.current);
+      }
+
+      return () => observer.disconnect();
+    } catch (error) {
+      console.error("Error in App useEffect:", error);
     }
-
-    return () => observer.disconnect();
   }, []);
-  return (
-    <div className="min-h-screen bg-white">
-      <main> 
-        <div ref={heroRef}>
-          <HeroSection />
-        </div>
-        <PhoneSection />
-        <MarqueeSection />
-        <ProblemStatementSection />
-        <GuidesSection />
-        <ProductOverviewSection />
-        <FeaturesSection />
-        <NutritionSection />
-        <MentalWellbeingSection />
-        <VideoSection />
-        <WearablesSection />
-        <ProcessSection />
-        <div className="hidden md:block">
-          <CTASection />
-        </div>
-        <TestimonialsSection />
-        <PricingSection />
-        <FAQSection />
-      </main>
-      <StickyQRCode />
-      {showMobileBanner && <MobileInstallBanner />}
-    </div>
-  );
+  try {
+    console.log("Rendering App component...");
+    return (
+      <div className="min-h-screen bg-white">
+        <main> 
+          <div ref={heroRef}>
+            <HeroSection />
+          </div>
+          <PhoneSection />
+          <MarqueeSection />
+          <ProblemStatementSection />
+          <GuidesSection />
+          <ProductOverviewSection />
+          <FeaturesSection />
+          <NutritionSection />
+          <MentalWellbeingSection />
+          <VideoSection />
+          <WearablesSection />
+          <ProcessSection />
+          <div className="hidden md:block">
+            <CTASection />
+          </div>
+          <TestimonialsSection />
+          <PricingSection />
+          <FAQSection />
+        </main>
+        <StickyQRCode />
+        {showMobileBanner && <MobileInstallBanner />}
+      </div>
+    );
+  } catch (error) {
+    console.error("Error rendering App component:", error);
+    return <div>Error loading app: {error.message}</div>;
+  }
 }
