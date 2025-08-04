@@ -635,30 +635,6 @@ const EcosystemDesignOption1 = ({
             <CarouselNext className="right-4" />
           </Carousel> : <Carousel className="w-full">
             <CarouselContent>
-              {productImages.pro.map((image, index) => <CarouselItem key={index}>
-                  <div className="relative overflow-hidden rounded-3xl shadow-2xl">
-                    <img src={image} alt={`${currentTitle} interface ${index + 1}`} className="w-full h-[600px] object-cover" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
-                    
-                    {/* Floating Stats */}
-                    <div className="absolute bottom-6 left-6 right-6">
-                      <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-6">
-                        <h3 className="text-2xl font-bold text-primary mb-4">{currentTitle}</h3>
-                        <div className="grid grid-cols-2 gap-4">
-                          <div className="text-center">
-                            <div className="text-3xl font-bold text-primary">500+</div>
-                            <div className="text-sm text-muted-foreground">Professionals</div>
-                          </div>
-                          <div className="text-center">
-                            <div className="text-3xl font-bold text-primary">10k+</div>
-                            <div className="text-sm text-muted-foreground">Clients</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </CarouselItem>)}
-              {/* CTA Slide */}
               <CarouselItem>
                 <div className="relative overflow-hidden rounded-3xl shadow-2xl h-[600px] bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center">
                   <div className="text-center text-white p-8">
