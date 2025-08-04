@@ -1,3 +1,5 @@
+import { T } from "@/hooks/useTranslation";
+
 export const HeroSection = () => {
   return (
     <section id="home" className="relative pt-20 pb-8 px-4 md:px-6">
@@ -13,17 +15,16 @@ export const HeroSection = () => {
             {/* Main Content */}
             <div className="max-w-4xl mx-auto mb-8 relative z-40 -mt-4 md:-mt-7.5">
               {/* Main Headline */}
-              <h1 className="font-bold leading-tight text-white mb-4 md:mb-6 relative z-50 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-                Live{" "}
-                <span className="text-primary">Healthier</span>,
-                <br />
-                Live Longer
-              </h1>
+               <h1 className="font-bold leading-tight text-white mb-4 md:mb-6 relative z-50 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+                 <T>Live</T>{" "}
+                 <span className="text-primary"><T>Healthier</T></span>,
+                 <br />
+                 <T>Live Longer</T>
+               </h1>
               
-              <p className="text-lg md:text-xl lg:text-2xl text-white/80 max-w-3xl mx-auto leading-relaxed mb-8 md:mb-12 px-4">
-                Discover the ultimate app to track workouts, monitor progress, and achieve your fitness 
-                goals. Stay on top of your health journey today!
-              </p>
+               <p className="text-lg md:text-xl lg:text-2xl text-white/80 max-w-3xl mx-auto leading-relaxed mb-8 md:mb-12 px-4">
+                 <T>Discover the ultimate app to track workouts, monitor progress, and achieve your fitness goals. Stay on top of your health journey today!</T>
+               </p>
               
               {/* Download Buttons - Mobile: Hidden, Desktop: Side by Side */}
               <div className="hidden md:flex flex-col md:flex-row gap-4 justify-center items-center mb-8 mt-3 md:mt-0">
