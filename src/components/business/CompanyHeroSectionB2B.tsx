@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { T } from "@/hooks/useTranslation";
 
 const CompanyHeroSectionB2B = () => {
   return (
@@ -15,9 +16,9 @@ const CompanyHeroSectionB2B = () => {
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-              Transform Wellbeing Into{" "}
+              <T>Transform Wellbeing Into</T>{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Measurable Business Results
+                <T>Measurable Business Results</T>
               </span>
             </h1>
             

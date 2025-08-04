@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
+import { T } from "@/hooks/useTranslation";
 
 const TransformationSection = () => {
   const transformationData = {
@@ -45,7 +46,7 @@ const TransformationSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Erakulis Transforms
+            <T>Erakulis Transforms</T>
           </h2>
         </div>
         

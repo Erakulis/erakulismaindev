@@ -3,6 +3,7 @@ import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import wellnessLifestyle from "@/assets/wellness-lifestyle.jpg";
 import nutrition from "@/assets/nutrition.jpg";
+import { T } from "@/hooks/useTranslation";
 
 const WellnessPlatformSection = () => {
   return (
@@ -10,7 +11,7 @@ const WellnessPlatformSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Next-Generation Wellness Platform
+            <T>Next-Generation Wellness Platform</T>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Erakulis is the only digital wellness solution that integrates physical activity, 

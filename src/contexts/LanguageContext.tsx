@@ -96,7 +96,13 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'The complete wellness app that transforms your health journey. Live healthier, live longer with Erakulis.': 'A aplicação completa de bem-estar que transforma a tua jornada de saúde. Vive mais saudável, vive mais tempo com a Erakulis.',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
-          'Cookies Policy': 'Política de Cookies'
+          'Cookies Policy': 'Política de Cookies',
+          'Transform Wellbeing Into': 'Transformar Bem-estar Em',
+          'Measurable Business Results': 'Resultados de Negócio Mensuráveis',
+          'Next-Generation Wellness Platform': 'Plataforma de Bem-estar de Nova Geração',
+          'Erakulis Transforms': 'A Erakulis Transforma',
+          'Live Healthier,': 'Viva Mais Saudável,',
+          'Live Longer': 'Viva Mais Tempo'
         },
         'pt-br': {
           'Home': 'Início',
@@ -119,7 +125,13 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Erakulis empowers you to live longer but healthier by helping you to eat better, stay active and lower your stress.': 'A Erakulis capacita-te a viver mais e mais saudável, ajudando-te a comer melhor, permanecer activo e reduzir stress.',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
-          'Cookies Policy': 'Política de Cookies'
+          'Cookies Policy': 'Política de Cookies',
+          'Transform Wellbeing Into': 'Transformar Bem-estar Em',
+          'Measurable Business Results': 'Resultados de Negócio Mensuráveis',
+          'Next-Generation Wellness Platform': 'Plataforma de Bem-estar de Nova Geração',
+          'Erakulis Transforms': 'A Erakulis Transforma',
+          'Live Healthier,': 'Viva Mais Saudável,',
+          'Live Longer': 'Viva Mais Tempo'
         },
         'fr': {
           'Home': 'Accueil',
