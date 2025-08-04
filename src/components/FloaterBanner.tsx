@@ -25,7 +25,7 @@ const FloaterBanner = () => {
         <p className="text-sm opacity-90 mb-4">
           Schedule a discovery call to learn how Erakulis can support your business.
         </p>
-        <Button variant="secondary" size="sm" className="w-full">
+        <Button variant="secondary" size="sm" className="w-full" onClick={() => window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2q7hvsRjNBPtfMIZUKtnZL2jDS5QAnroyiQCnge7EQ6ur7nZ5fN0Y1JlRnlGzkCs2XqyZMu1a9', '_blank')}>
           Schedule Discovery Call
         </Button>
       </Card>
