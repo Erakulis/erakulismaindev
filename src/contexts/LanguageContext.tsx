@@ -18,12 +18,30 @@ interface LanguageProviderProps {
 // Simple translation cache to avoid repeated API calls
 const translationCache = new Map<string, string>();
 
+// Language persistence key
+const LANGUAGE_STORAGE_KEY = 'erakulis_selected_language';
+
+// Get initial language from localStorage or default to English
+const getInitialLanguage = (): Language => {
+  if (typeof window !== 'undefined') {
+    const savedLanguage = localStorage.getItem(LANGUAGE_STORAGE_KEY);
+    if (savedLanguage && ['en', 'pt', 'pt-br', 'fr', 'es'].includes(savedLanguage)) {
+      return savedLanguage as Language;
+    }
+  }
+  return 'en';
+};
+
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  const [currentLanguage, setCurrentLanguage] = useState<Language>('en');
+  const [currentLanguage, setCurrentLanguage] = useState<Language>(getInitialLanguage);
   const [isTranslating, setIsTranslating] = useState(false);
 
   const setLanguage = (language: Language) => {
     setCurrentLanguage(language);
+    // Persist language selection to localStorage
+    if (typeof window !== 'undefined') {
+      localStorage.setItem(LANGUAGE_STORAGE_KEY, language);
+    }
   };
 
   const translate = async (text: string): Promise<string> => {
