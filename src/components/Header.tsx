@@ -70,7 +70,7 @@ const Header = () => {
             <LanguageSelectorHeader />
             <Button variant="outline" className="hover:bg-primary hover:text-primary-foreground hover:border-primary" asChild>
               <a href="https://hub.erakulis.com" target="_blank" rel="noopener noreferrer">
-                <T>Erakulis Hub</T>
+                Erakulis Hub
               </a>
             </Button>
             <Button variant="ghost" className="text-white hover:bg-primary hover:text-primary-foreground" asChild>
@@ -141,7 +141,7 @@ const Header = () => {
                   asChild
                 >
                   <a href="https://hub.erakulis.com" target="_blank" rel="noopener noreferrer">
-                    <T>Erakulis Hub</T>
+                    Erakulis Hub
                   </a>
                 </Button>
                 <Button 

@@ -73,7 +73,7 @@ const Footer = () => {
                </li>
                <li>
                  <a href="https://hub.erakulis.com" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors">
-                   <T>Erakulis Hub</T>
+                   Erakulis Hub
                  </a>
                </li>
             </ul>
