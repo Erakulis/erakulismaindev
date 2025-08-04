@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Check, Star, Crown } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 const features = [
   { name: "Daily Check-ins", free: true, premium: true },
@@ -27,10 +28,10 @@ export const PricingSection = () => {
           </div>
           
           <h2 className="text-4xl lg:text-6xl font-bold mb-6">
-            <span className="text-foreground">Start</span>{" "}
-            <span className="text-primary font-extrabold">Free</span>
+            <span className="text-foreground"><T>Start</T></span>{" "}
+            <span className="text-primary font-extrabold"><T>Free</T></span>
             <br />
-            <span className="text-foreground">Upgrade when ready</span>
+            <span className="text-foreground"><T>Upgrade when ready</T></span>
           </h2>
           
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
