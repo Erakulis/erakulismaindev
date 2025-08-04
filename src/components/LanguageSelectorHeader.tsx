@@ -23,9 +23,8 @@ const LanguageSelectorHeader = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="sm" className="text-white hover:bg-primary/20 hover:text-white">
-          <Globe className="h-4 w-4 mr-2" />
-          {currentLang.flag} {currentLang.code.toUpperCase()}
+        <Button variant="ghost" size="sm" className="text-white hover:bg-primary/20 hover:text-white px-2 py-1">
+          {currentLang.flag}
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="bg-white border shadow-lg z-50">
