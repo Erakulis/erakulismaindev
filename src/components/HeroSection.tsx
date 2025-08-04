@@ -69,12 +69,11 @@ const HeroSection = () => {
               
               {/* Floating elements */}
               <div className="absolute -top-4 -left-4 bg-gradient-card p-4 rounded-xl shadow-medium animate-fade-in-up border border-primary/10">
-                <div className="text-sm font-semibold text-primary">Thousands of Active Clients</div>
+                <div className="text-sm font-semibold text-primary">Active users worldwide</div>
               </div>
               
               <div className="absolute -bottom-4 -right-4 p-4 rounded-xl shadow-glow animate-fade-in-up delay-300" style={{ backgroundColor: "#FFA953" }}>
-                <div className="text-sm font-semibold text-primary-foreground">Retention Rate</div>
-                <div className="text-2xl font-bold text-primary-foreground">94%</div>
+                <div className="text-sm font-semibold text-primary-foreground">High Retention Rate</div>
               </div>
             </div>
           </div>
