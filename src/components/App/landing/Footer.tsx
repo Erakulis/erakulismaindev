@@ -1,5 +1,6 @@
 import { Button } from "@/components/App/ui/button";
 import { Heart, Download, Apple } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 export const Footer = () => {
   return (
@@ -18,8 +19,7 @@ export const Footer = () => {
               <span className="text-2xl font-bold text-foreground">ERAKULIS</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              The complete wellness app that transforms your health journey. 
-              Live healthier, live longer with Erakulis.
+              <T>The complete wellness app that transforms your health journey. Live healthier, live longer with Erakulis.</T>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="https://apps.apple.com/us/app/erakulis/id6473955690" target="_blank" rel="noopener noreferrer">

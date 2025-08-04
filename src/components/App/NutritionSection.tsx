@@ -99,15 +99,15 @@ export const NutritionSection = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 bg-gradient-glass backdrop-blur-md border border-primary/20 rounded-full mb-6">
             <Sparkles className="w-4 h-4 text-primary mr-2" />
-            <span className="text-sm font-medium text-primary">Smart Nutrition Tracking</span>
+            <span className="text-sm font-medium text-primary"><T>Smart Nutrition Tracking</T></span>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Nutrition Power Features
+            <T>Nutrition Power Features</T>
           </h2>
           
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Transform your eating habits with intelligent nutrition tracking, personalized meal plans, and comprehensive dietary analysis to fuel your body optimally.
+            <T>Transform your eating habits with intelligent nutrition tracking, personalized meal plans, and comprehensive dietary analysis to fuel your body optimally.</T>
           </p>
         </div>
 
@@ -133,10 +133,10 @@ export const NutritionSection = () => {
                     <div className="space-y-8">
                       <div>
                         <h3 className="text-3xl font-bold text-foreground mb-4">
-                          {slide.title}
+                          <T>{slide.title}</T>
                         </h3>
                         <p className="text-muted-foreground text-lg leading-relaxed">
-                          {slide.description}
+                          <T>{slide.description}</T>
                         </p>
                       </div>
 
@@ -151,11 +151,11 @@ export const NutritionSection = () => {
                               
                               <div>
                                 <h4 className="text-lg font-semibold text-foreground mb-2">
-                                  {feature.title}
+                                  <T>{feature.title}</T>
                                 </h4>
                                 
                                 <p className="text-muted-foreground leading-relaxed">
-                                  {feature.description}
+                                  <T>{feature.description}</T>
                                 </p>
                               </div>
                             </div>

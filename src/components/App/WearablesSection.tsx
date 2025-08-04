@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Check } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 const wearables = [
   { name: "Apple Health", logo: "/assets/images/2ce2112d-442d-4240-85ea-51972f652003.png", color: "text-white", isImage: true },
@@ -41,12 +42,11 @@ export const WearablesSection = () => {
           {/* Left Content */}
           <div className="flex-1">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Connect All Your<br />Wearables & Apps
+              <T>Connect All Your</T><br /><T>Wearables & Apps</T>
             </h2>
             
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Seamlessly integrate with your favorite fitness devices and health apps. 
-              Erakulis brings all your health data together in one place.
+              <T>Seamlessly integrate with your favorite fitness devices and health apps. Erakulis brings all your health data together in one place.</T>
             </p>
             
             <ul className="space-y-4">
@@ -55,7 +55,7 @@ export const WearablesSection = () => {
                   <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                     <Check className="w-4 h-4 text-white" />
                   </div>
-                  <span className="text-gray-700 font-medium">{benefit}</span>
+                  <span className="text-gray-700 font-medium"><T>{benefit}</T></span>
                 </li>
               ))}
             </ul>

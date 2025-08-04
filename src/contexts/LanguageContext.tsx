@@ -87,6 +87,13 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Mind': 'Mente',
           'United': 'Unidos',
           'Our approach brings fitness, nutrition, and mental well-being together, creating a powerful foundation for lasting health.': 'A nossa abordagem une fitness, nutrição e bem-estar mental, criando uma base poderosa para uma saúde duradoura.',
+          'Nutrition Power Features': 'Funcionalidades Avançadas de Nutrição',
+          'Mental Wellbeing Features': 'Funcionalidades de Bem-estar Mental',
+          'Connect All Your': 'Liga Todos os Teus',
+          'Wearables & Apps': 'Wearables e Apps',
+          'Smart Nutrition Tracking': 'Rastreamento Inteligente de Nutrição',
+          'Mental Wellness Support': 'Apoio ao Bem-estar Mental',
+          'The complete wellness app that transforms your health journey. Live healthier, live longer with Erakulis.': 'A aplicação completa de bem-estar que transforma a tua jornada de saúde. Vive mais saudável, vive mais tempo com a Erakulis.',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
