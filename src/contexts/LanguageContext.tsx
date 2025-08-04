@@ -95,7 +95,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Learn More': 'Saiba Mais',
           'Sign Up': 'Cadastrar',
           'Login': 'Entrar',
-          'The App': 'A App',
+          'The App': 'Aplicativo',
           'I\'m a Fitness PRO': 'Sou profissional de fitness',
           'I\'m a Company': 'Sou uma empresa',
           'Download our app': 'Faça Download da App',
