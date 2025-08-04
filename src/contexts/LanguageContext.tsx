@@ -76,6 +76,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'I\'m a Fitness PRO': 'Sou um profissional de fitness',
           'Download our app': 'Transferir a nossa aplicação',
           'Problem Statement': 'O Problema',
+          'Medicine promised longer, healthier lives but delivered longer, sicker ones.': 'A medicina prometeu uma vida mais longa e saudável, mas entregou vidas mais longas e mais doentes.',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
@@ -95,6 +96,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'I\'m a Fitness PRO': 'Eu sou um pro de fitness',
           'Download our app': 'Faça Download da App',
           'Problem Statement': 'O Problema',
+          'Medicine promised longer, healthier lives but delivered longer, sicker ones.': 'A medicina prometeu uma vida mais longa e saudável, mas entregou vidas mais longas e mais doentes.',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
