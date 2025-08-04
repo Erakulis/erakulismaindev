@@ -133,7 +133,16 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Global Wellness Ambassador': 'Embaixador Global de Bem-estar',
           'Founder Cristiano Ronaldo': 'Fundador Cristiano Ronaldo',
           'Cristiano Ronaldo\'s Formula for': 'Fórmula do Cristiano Ronaldo para',
-          'Corporate Well-Being & Success': 'Bem-estar Corporativo e Sucesso'
+          'Corporate Well-Being & Success': 'Bem-estar Corporativo e Sucesso',
+          'Erakulis Power Features': 'Funcionalidades Poderosas da Erakulis',
+          'Our platform offers a comprehensive range of powerful features designed to elevate your wellness experience across fitness, nutrition, and mental health.': 'A nossa plataforma oferece uma gama abrangente de funcionalidades poderosas concebidas para elevar a sua experiência de bem-estar em fitness, nutrição e saúde mental.',
+          'What Client say about our Business': 'O que os Clientes dizem sobre o nosso Negócio',
+          'Your Complete Wellness Suite': 'A Sua Suite Completa de Bem-estar',
+          'Erakulis gives you all the tools your business needs to reduce costs, mitigate risks, and maximize organizational performance.': 'A Erakulis dá-lhe todas as ferramentas que o seu negócio precisa para reduzir custos, mitigar riscos e maximizar o desempenho organizacional.',
+          'Our Model': 'O Nosso Modelo',
+          'Tailored Wellness Solutions for Every Industry': 'Soluções de Bem-estar Personalizadas para Cada Indústria',
+          'ERAKULIS adapts to your unique challenges across diverse sectors, delivering measurable results that transform workforce well-being into tangible business outcomes.': 'A ERAKULIS adapta-se aos seus desafios únicos em sectores diversificados, proporcionando resultados mensuráveis que transformam o bem-estar da força de trabalho em resultados de negócio tangíveis.',
+          'Where professional expertise meets user-friendly wellness. Discover how our seamlessly integrated ecosystem creates lasting impact.': 'Onde a experiência profissional encontra o bem-estar fácil de usar. Descubra como o nosso ecossistema perfeitamente integrado cria um impacto duradouro.'
         },
         'pt-br': {
           'Home': 'Início',

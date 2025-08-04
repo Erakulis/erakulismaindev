@@ -1,7 +1,7 @@
+import { T } from "@/hooks/useTranslation";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
- 
 
 const CristianoSectionB2B = () => {
   return (
@@ -24,12 +24,12 @@ const CristianoSectionB2B = () => {
             <div className="space-y-2">
               <div className="text-lg font-semibold text-primary">CR7</div>
               <div className="text-sm text-muted-foreground">Global Wellness Ambassador</div>
-              <div className="text-sm text-muted-foreground">Founder Cristiano Ronaldo</div>
+              <div className="text-sm text-muted-foreground"><T>Founder Cristiano Ronaldo</T></div>
             </div>
             
-            <h2 className="text-3xl lg:text-5xl font-bold leading-tight">
-              Cristiano Ronaldo's Formula for Corporate Well-Being & Success
-            </h2>
+             <h2 className="text-3xl lg:text-5xl font-bold leading-tight">
+               <T>Cristiano Ronaldo's Formula for</T> <T>Corporate Well-Being & Success</T>
+             </h2>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
               Step into Cristiano Ronaldo's wellness ecosystem, reimagined for today's corporate teams. 

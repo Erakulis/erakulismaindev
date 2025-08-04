@@ -1,3 +1,4 @@
+import { T } from "@/hooks/useTranslation";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -45,13 +46,12 @@ const SmartIntegrationSectionB2B = () => {
     <section className="py-16 lg:py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Smart Wellness Integration
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Where professional expertise meets user-friendly wellness. Discover how our seamlessly 
-            integrated ecosystem creates lasting impact.
-          </p>
+           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
+             <T>Smart Wellness Integration</T>
+           </h2>
+           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+             <T>Where professional expertise meets user-friendly wellness. Discover how our seamlessly integrated ecosystem creates lasting impact.</T>
+           </p>
         </div>
         
         <Tabs defaultValue="pro" className="w-full">

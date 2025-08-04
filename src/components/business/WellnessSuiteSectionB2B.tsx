@@ -1,3 +1,4 @@
+import { T } from "@/hooks/useTranslation";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
@@ -43,13 +44,12 @@ const WellnessSuiteSectionB2B = () => {
     <section className="py-16 lg:py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Your Complete Wellness Suite
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Erakulis gives you all the tools your business needs to reduce costs, mitigate risks, 
-            and maximize organizational performance.
-          </p>
+           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
+             <T>Your Complete Wellness Suite</T>
+           </h2>
+           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+             <T>Erakulis gives you all the tools your business needs to reduce costs, mitigate risks, and maximize organizational performance.</T>
+           </p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">

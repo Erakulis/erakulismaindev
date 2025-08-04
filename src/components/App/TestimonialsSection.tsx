@@ -1,3 +1,4 @@
+import { T } from "@/hooks/useTranslation";
 import { Star } from "lucide-react";
 
 export const TestimonialsSection = () => {
@@ -63,7 +64,7 @@ export const TestimonialsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            What Client say about our Business
+            <T>What Client say about our Business</T>
           </h2>
         </div>
 

@@ -1,3 +1,4 @@
+import { T } from "@/hooks/useTranslation";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -31,9 +32,9 @@ const PricingModelSectionB2B = () => {
     <section className="py-16 lg:py-20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Our Model
-          </h2>
+           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
+             <T>Our Model</T>
+           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Performance-based pricing that ensures you only pay when we deliver measurable results.
           </p>

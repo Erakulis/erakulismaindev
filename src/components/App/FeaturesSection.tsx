@@ -1,3 +1,4 @@
+import { T } from "@/hooks/useTranslation";
 import { Activity, Target, Dumbbell, BarChart3, Share2, Sparkles, Heart, Apple, Brain } from "lucide-react";
 import { useState } from "react";
 
@@ -81,11 +82,11 @@ export const FeaturesSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Erakulis Power Features
+            <T>Erakulis Power Features</T>
           </h2>
           
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our platform offers a comprehensive range of powerful features designed to elevate your wellness experience across fitness, nutrition, and mental health.
+            <T>Our platform offers a comprehensive range of powerful features designed to elevate your wellness experience across fitness, nutrition, and mental health.</T>
           </p>
         </div>
 

@@ -1,3 +1,4 @@
+import { T } from "@/hooks/useTranslation";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -100,16 +101,15 @@ const IndustrySolutionsSectionB2B = () => {
     <section className="py-16 lg:py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Industry-Specific Solutions
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Tailored Wellness Solutions for Every Industry
-          </p>
-          <p className="text-base text-muted-foreground max-w-4xl mx-auto mt-4">
-            ERAKULIS adapts to your unique challenges across diverse sectors, delivering measurable 
-            results that transform workforce well-being into tangible business outcomes.
-          </p>
+           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
+             <T>Industry-Specific Solutions</T>
+           </h2>
+           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+             <T>Tailored Wellness Solutions for Every Industry</T>
+           </p>
+           <p className="text-base text-muted-foreground max-w-4xl mx-auto mt-4">
+             <T>ERAKULIS adapts to your unique challenges across diverse sectors, delivering measurable results that transform workforce well-being into tangible business outcomes.</T>
+           </p>
         </div>
         
         <Tabs defaultValue="tech" className="w-full">
