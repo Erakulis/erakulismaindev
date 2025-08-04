@@ -72,6 +72,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Sign Up': 'Cadastrar',
           'Login': 'Entrar',
           'The App': 'A App',
+          'Download our app': 'Faça Download da App',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
@@ -87,6 +88,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Sign Up': 'Cadastrar',
           'Login': 'Entrar',
           'The App': 'A App',
+          'Download our app': 'Faça Download da App',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
