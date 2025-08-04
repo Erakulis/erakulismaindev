@@ -142,8 +142,7 @@ export const PricingSection = () => {
             {[...Array(5)].map((_, i) => (
               <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
             ))}
-            <span className="ml-2 text-sm font-medium text-foreground">4.9 out of 5</span>
-            <span className="text-sm text-muted-foreground ml-1">(12,450 reviews)</span>
+            <span className="ml-2 text-sm font-medium text-foreground">4.8 out of 5</span>
           </div>
         </div>
       </div>
