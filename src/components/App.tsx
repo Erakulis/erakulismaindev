@@ -8,7 +8,7 @@ import { ProductOverviewSection } from "@/components/App/ProductOverviewSection"
 import { FeaturesSection } from "@/components/App/FeaturesSection";
 import { NutritionSection } from "@/components/App/NutritionSection";
 import { MentalWellbeingSection } from "@/components/App/MentalWellbeingSection";
-import { VideoSection } from "@/components/App/VideoSection";
+
 import { WearablesSection } from "@/components/App/WearablesSection";
 import { StatsSection } from "@/components/App/StatsSection";
 import { ProcessSection } from "@/components/App/ProcessSection";
@@ -59,7 +59,7 @@ export default function Index() {
           <FeaturesSection />
           <NutritionSection />
           <MentalWellbeingSection />
-          <VideoSection />
+          
           <WearablesSection />
           <ProcessSection />
           <div className="hidden md:block">
