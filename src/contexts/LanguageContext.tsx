@@ -79,6 +79,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Problem Statement': 'O Problema',
           'Why Erakulis': 'Porquê Erakulis',
           'Medicine promised longer, healthier lives but delivered longer, sicker ones.': 'A medicina prometeu uma vida mais longa e saudável, mas entregou vidas mais longas e mais doentes.',
+          'Erakulis empowers you to live longer but healthier by helping you to eat better, stay active and lower your stress.': 'A Erakulis capacita-te a viver mais e mais saudável, ajudando-te a comer melhor, permanecer activo e reduzir stress.',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
@@ -101,6 +102,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Problem Statement': 'O Problema',
           'Why Erakulis': 'Porquê Erakulis',
           'Medicine promised longer, healthier lives but delivered longer, sicker ones.': 'A medicina prometeu uma vida mais longa e saudável, mas entregou vidas mais longas e mais doentes.',
+          'Erakulis empowers you to live longer but healthier by helping you to eat better, stay active and lower your stress.': 'A Erakulis capacita-te a viver mais e mais saudável, ajudando-te a comer melhor, permanecer activo e reduzir stress.',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
