@@ -590,7 +590,7 @@ const EcosystemDesignOption1 = ({
                     <Calendar className="h-16 w-16 mx-auto mb-6" />
                     <h3 className="text-3xl font-bold mb-4">Ready to Transform Your Wellness?</h3>
                     <p className="text-xl mb-8 opacity-90">Schedule a discovery call to learn how Erakulis Mobile can revolutionize your health journey</p>
-                    <Button size="lg" variant="secondary" className="text-lg px-8 py-4" onClick={() => window.open('https://calendly.com/erakulis', '_blank')}>
+                     <Button size="lg" variant="secondary" className="text-lg px-8 py-4" onClick={() => window.open('https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2q7hvsRjNBPtfMIZUKtnZL2jDS5QAnroyiQCnge7EQ6ur7nZ5fN0Y1JlRnlGzkCs2XqyZMu1a9', '_blank')}>
                       Schedule Discovery Call
                       <ArrowRight className="ml-2 h-5 w-5" />
                     </Button>
