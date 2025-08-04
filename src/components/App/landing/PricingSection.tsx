@@ -136,7 +136,7 @@ export const PricingSection = () => {
         {/* Trust Indicators */}
         <div className="text-center mt-16">
           <p className="text-sm text-muted-foreground mb-6">
-            Trusted by over 1 million users worldwide
+            Trusted by passionate users worldwide
           </p>
           <div className="flex justify-center items-center gap-2">
             {[...Array(5)].map((_, i) => (
