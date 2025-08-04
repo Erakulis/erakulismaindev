@@ -14,8 +14,7 @@ const WellnessPlatformSection = () => {
             <T>Next-Generation Wellness Platform</T>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Erakulis is the only digital wellness solution that integrates physical activity, 
-            mental, nutrition, stress and sleep in one single experience.
+            <T>Erakulis is the only digital wellness solution that integrates physical activity, mental, nutrition, stress and sleep in one single experience.</T>
           </p>
         </div>
         
@@ -35,10 +34,9 @@ const WellnessPlatformSection = () => {
                 </div>
                 <Progress value={85} className="h-2" />
               </div>
-              <h3 className="text-xl font-bold text-primary">Physical Activity</h3>
+              <h3 className="text-xl font-bold text-primary"><T>Physical Activity</T></h3>
               <p className="text-muted-foreground">
-                Personalized fitness routines that adapt to your schedule and preferences, 
-                keeping you moving towards your goals.
+                <T>Personalized fitness routines that adapt to your schedule and preferences, keeping you moving towards your goals.</T>
               </p>
               <div className="flex items-center justify-between">
                 <span className="text-sm text-muted-foreground">Status</span>
@@ -58,10 +56,9 @@ const WellnessPlatformSection = () => {
               <div className="space-y-2">
                 <div className="text-sm text-muted-foreground">Meals tracked</div>
               </div>
-              <h3 className="text-xl font-bold text-primary">Nutrition</h3>
+              <h3 className="text-xl font-bold text-primary"><T>Nutrition</T></h3>
               <p className="text-muted-foreground">
-                AI-powered meal planning and nutrition tracking that makes healthy eating 
-                simple and sustainable.
+                <T>AI-powered meal planning and nutrition tracking that makes healthy eating simple and sustainable.</T>
               </p>
               <div className="flex items-center justify-between">
                 <span className="text-sm text-muted-foreground">Status</span>
@@ -79,9 +76,9 @@ const WellnessPlatformSection = () => {
                   <div className="text-2xl font-bold">🧠</div>
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-primary">Mental Wellness</h3>
+              <h3 className="text-xl font-bold text-primary"><T>Mental Wellness</T></h3>
               <p className="text-muted-foreground">
-                Comprehensive mental health support including mindfulness.
+                <T>Comprehensive mental health support including mindfulness.</T>
               </p>
             </div>
           </Card>
@@ -104,9 +101,9 @@ const WellnessPlatformSection = () => {
                   </div>
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-primary">Sleep & Recovery</h3>
+              <h3 className="text-xl font-bold text-primary"><T>Sleep & Recovery</T></h3>
               <p className="text-muted-foreground">
-                Sleep optimization tools and recovery tracking.
+                <T>Sleep optimization tools and recovery tracking.</T>
               </p>
             </div>
           </Card>
@@ -114,7 +111,7 @@ const WellnessPlatformSection = () => {
         
         <div className="text-center mt-12">
           <p className="text-lg font-medium text-muted-foreground">
-            Experience the Complete Ecosystem
+            <T>Experience the Complete Ecosystem</T>
           </p>
         </div>
       </div>

@@ -52,8 +52,8 @@ const TransformationSection = () => {
         
         <Tabs defaultValue="companies" className="w-full">
           <TabsList className="grid w-full grid-cols-2 max-w-md mx-auto mb-12">
-            <TabsTrigger value="companies" className="text-lg">Companies</TabsTrigger>
-            <TabsTrigger value="people" className="text-lg">People</TabsTrigger>
+            <TabsTrigger value="companies" className="text-lg"><T>Companies</T></TabsTrigger>
+            <TabsTrigger value="people" className="text-lg"><T>People</T></TabsTrigger>
           </TabsList>
           
           <TabsContent value="companies" className="space-y-8">
@@ -61,10 +61,10 @@ const TransformationSection = () => {
               {transformationData.companies.map((item, index) => (
                 <Card key={index} className="p-6 hover:shadow-medium transition-all duration-300">
                   <div className="space-y-4">
-                    <h3 className="text-xl font-bold">{item.title}</h3>
-                    <p className="text-muted-foreground">{item.description}</p>
+                    <h3 className="text-xl font-bold"><T>{item.title}</T></h3>
+                    <p className="text-muted-foreground"><T>{item.description}</T></p>
                     <Badge variant="outline" className="w-fit">
-                      {item.tag}
+                      <T>{item.tag}</T>
                     </Badge>
                   </div>
                 </Card>
@@ -84,11 +84,11 @@ const TransformationSection = () => {
                         </Badge>
                       </div>
                     )}
-                    <h3 className="text-xl font-bold">{item.title}</h3>
-                    <p className="text-muted-foreground">{item.description}</p>
+                    <h3 className="text-xl font-bold"><T>{item.title}</T></h3>
+                    <p className="text-muted-foreground"><T>{item.description}</T></p>
                     {item.tag && (
                       <Badge variant="outline" className="w-fit">
-                        {item.tag}
+                        <T>{item.tag}</T>
                       </Badge>
                     )}
                   </div>

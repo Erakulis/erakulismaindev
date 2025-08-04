@@ -56,8 +56,8 @@ const SmartIntegrationSectionB2B = () => {
         
         <Tabs defaultValue="pro" className="w-full">
           <TabsList className="grid w-full grid-cols-2 mb-12">
-            <TabsTrigger value="pro">Erakulis PRO</TabsTrigger>
-            <TabsTrigger value="mobile">Erakulis Mobile</TabsTrigger>
+            <TabsTrigger value="pro"><T>Erakulis PRO</T></TabsTrigger>
+            <TabsTrigger value="mobile"><T>Erakulis Mobile</T></TabsTrigger>
           </TabsList>
           
           <TabsContent value="pro" className="space-y-12">
@@ -78,11 +78,11 @@ const SmartIntegrationSectionB2B = () => {
                           <div className="flex justify-center gap-8">
                             <div>
                               <div className="text-2xl font-bold text-primary">{item.professionals}</div>
-                              <div className="text-sm text-muted-foreground">Professionals</div>
+                              <div className="text-sm text-muted-foreground"><T>Professionals</T></div>
                             </div>
                             <div>
                               <div className="text-2xl font-bold text-primary">{item.clients}</div>
-                              <div className="text-sm text-muted-foreground">Clients</div>
+                              <div className="text-sm text-muted-foreground"><T>Clients</T></div>
                             </div>
                           </div>
                         </div>
@@ -97,30 +97,30 @@ const SmartIntegrationSectionB2B = () => {
 
             <div className="text-center mb-12">
               <Card className="p-8 inline-block">
-                <h3 className="text-2xl font-bold mb-4">Ready to Scale Your Business?</h3>
+                <h3 className="text-2xl font-bold mb-4"><T>Ready to Scale Your Business?</T></h3>
                 <p className="text-muted-foreground mb-6">
-                  Schedule a discovery call to learn how Erakulis PRO can transform your fitness business
+                  <T>Schedule a discovery call to learn how Erakulis PRO can transform your fitness business</T>
                 </p>
-                <Button size="lg">Schedule Discovery Call</Button>
+                <Button size="lg"><T>Schedule Discovery Call</T></Button>
               </Card>
             </div>
 
             {/* Key Features */}
             <div className="space-y-8">
               <div className="text-center">
-                <h3 className="text-2xl font-bold mb-2">Key Features</h3>
-                <p className="text-muted-foreground mb-4">Everything you need to succeed</p>
+                <h3 className="text-2xl font-bold mb-2"><T>Key Features</T></h3>
+                <p className="text-muted-foreground mb-4"><T>Everything you need to succeed</T></p>
                 <div className="flex justify-center gap-4 mb-8">
-                  <Badge variant="secondary">Enterprise Ready</Badge>
-                  <Badge variant="secondary">HIPAA Compliant</Badge>
+                  <Badge variant="secondary"><T>Enterprise Ready</T></Badge>
+                  <Badge variant="secondary"><T>HIPAA Compliant</T></Badge>
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 gap-8">
                 {features.map((feature, index) => (
                   <div key={index} className="space-y-2">
-                    <h4 className="text-lg font-semibold">{feature.label}</h4>
-                    <p className="text-muted-foreground text-sm">{feature.detail}</p>
+                    <h4 className="text-lg font-semibold"><T>{feature.label}</T></h4>
+                    <p className="text-muted-foreground text-sm"><T>{feature.detail}</T></p>
                   </div>
                 ))}
               </div>
@@ -130,31 +130,30 @@ const SmartIntegrationSectionB2B = () => {
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div>
                 <div className="text-4xl font-bold text-primary mb-2">500+</div>
-                <div className="text-muted-foreground">Professionals</div>
+                <div className="text-muted-foreground"><T>Professionals</T></div>
               </div>
               <div>
                 <div className="text-4xl font-bold text-primary mb-2">10k+</div>
-                <div className="text-muted-foreground">Clients Managed</div>
+                <div className="text-muted-foreground"><T>Clients Managed</T></div>
               </div>
               <div>
                 <div className="text-4xl font-bold text-primary mb-2">95%</div>
-                <div className="text-muted-foreground">Success Rate</div>
+                <div className="text-muted-foreground"><T>Success Rate</T></div>
               </div>
             </div>
 
             <div className="text-center">
               <Button size="lg" className="text-lg px-8 py-6">
-                Explore PRO Platform
+                <T>Explore PRO Platform</T>
               </Button>
             </div>
           </TabsContent>
           
           <TabsContent value="mobile" className="space-y-8">
             <Card className="p-12 text-center">
-              <h3 className="text-3xl font-bold mb-6">Erakulis Mobile Experience</h3>
+              <h3 className="text-3xl font-bold mb-6"><T>Erakulis Mobile Experience</T></h3>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Seamless mobile wellness experience that puts comprehensive health management 
-                right in your employees' hands.
+                <T>Seamless mobile wellness experience that puts comprehensive health management right in your employees' hands.</T>
               </p>
             </Card>
           </TabsContent>
