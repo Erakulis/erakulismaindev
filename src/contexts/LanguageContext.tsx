@@ -75,6 +75,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'The App': 'A Aplicação',
           'I\'m a Fitness PRO': 'Sou um profissional de fitness',
           'Download our app': 'Transferir a nossa aplicação',
+          'Problem Statement': 'O Problema',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
@@ -93,6 +94,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'The App': 'A App',
           'I\'m a Fitness PRO': 'Eu sou um pro de fitness',
           'Download our app': 'Faça Download da App',
+          'Problem Statement': 'O Problema',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
