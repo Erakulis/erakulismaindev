@@ -96,6 +96,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Contact': 'Contact',
           'Download': 'Télécharger',
           'Get Started': 'Commencer',
+          'Start Free': 'Commencer',
           'Learn More': 'En savoir plus',
           'Sign Up': 'S\'inscrire',
           'Login': 'Connexion',
