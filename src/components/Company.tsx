@@ -56,15 +56,15 @@ const ROISimulator = () => {
               <div className="p-3 bg-primary/10 rounded-xl">
                 <Calculator className="h-8 w-8 text-primary" />
               </div>
-              <CardTitle className="text-2xl text-foreground">Company Details</CardTitle>
+              <CardTitle className="text-2xl text-foreground"><T>Company Details</T></CardTitle>
             </div>
             <CardDescription className="text-muted-foreground">
-              Customize the parameters to see your specific ROI calculation
+              <T>Customize the parameters to see your specific ROI calculation</T>
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-8">
             <div>
-              <Label className="text-base font-medium mb-4 block">Number of Employees</Label>
+              <Label className="text-base font-medium mb-4 block"><T>Number of Employees</T></Label>
               <Slider value={employees} onValueChange={setEmployees} max={10000} min={100} step={50} className="mb-2" />
               <div className="flex justify-between text-sm text-muted-foreground">
                 <span>100</span>
@@ -74,7 +74,7 @@ const ROISimulator = () => {
             </div>
             
             <div>
-              <Label className="text-base font-medium mb-4 block">Average Salary ($)</Label>
+              <Label className="text-base font-medium mb-4 block"><T>Average Salary ($)</T></Label>
               <Slider value={avgSalary} onValueChange={setAvgSalary} max={150000} min={30000} step={5000} className="mb-2" />
               <div className="flex justify-between text-sm text-muted-foreground">
                 <span>$30k</span>
@@ -84,7 +84,7 @@ const ROISimulator = () => {
             </div>
             
             <div>
-              <Label className="text-base font-medium mb-4 block">Current Absenteeism Rate (%)</Label>
+              <Label className="text-base font-medium mb-4 block"><T>Current Absenteeism Rate (%)</T></Label>
               <Slider value={currentAbsenteeism} onValueChange={setCurrentAbsenteeism} max={15} min={3} step={0.5} className="mb-2" />
               <div className="flex justify-between text-sm text-muted-foreground">
                 <span>3%</span>
@@ -94,7 +94,7 @@ const ROISimulator = () => {
             </div>
             
             <div>
-              <Label className="text-base font-medium mb-4 block">Healthcare Cost per Employee ($)</Label>
+              <Label className="text-base font-medium mb-4 block"><T>Healthcare Cost per Employee ($)</T></Label>
               <Slider value={healthcareCosts} onValueChange={setHealthcareCosts} max={25000} min={5000} step={1000} className="mb-2" />
               <div className="flex justify-between text-sm text-muted-foreground">
                 <span>$5k</span>
@@ -114,7 +114,7 @@ const ROISimulator = () => {
                 <div className="p-3 bg-green-100 rounded-xl">
                   <TrendingUp className="h-8 w-8 text-green-600" />
                 </div>
-                <CardTitle className="text-2xl text-foreground">Annual ROI Summary</CardTitle>
+                <CardTitle className="text-2xl text-foreground"><T>Annual ROI Summary</T></CardTitle>
               </div>
             </CardHeader>
             <CardContent>
@@ -122,22 +122,22 @@ const ROISimulator = () => {
                 <div className="text-center p-4 bg-white/80 rounded-xl border">
                   <DollarSign className="h-8 w-8 text-green-600 mx-auto mb-2" />
                   <div className="text-3xl font-bold text-green-600">${netROI.toLocaleString()}</div>
-                  <div className="text-sm text-muted-foreground">Net Annual Savings</div>
+                  <div className="text-sm text-muted-foreground"><T>Net Annual Savings</T></div>
                 </div>
                 <div className="text-center p-4 bg-white/80 rounded-xl border">
                   <PieChart className="h-8 w-8 text-primary mx-auto mb-2" />
                   <div className="text-3xl font-bold text-primary">{roiPercentage.toFixed(0)}%</div>
-                  <div className="text-sm text-muted-foreground">Return on Investment</div>
+                  <div className="text-sm text-muted-foreground"><T>Return on Investment</T></div>
                 </div>
               </div>
               
               <div className="space-y-3">
                 <div className="flex justify-between items-center p-3 bg-white/60 rounded-lg">
-                  <span className="text-muted-foreground">Investment Cost</span>
+                  <span className="text-muted-foreground"><T>Investment Cost</T></span>
                   <span className="font-semibold text-red-600">-${erakulisCost.toLocaleString()}</span>
                 </div>
                 <div className="flex justify-between items-center p-3 bg-white/60 rounded-lg">
-                  <span className="text-muted-foreground">Total Savings</span>
+                  <span className="text-muted-foreground"><T>Total Savings</T></span>
                   <span className="font-semibold text-green-600">+${totalAnnualSavings.toLocaleString()}</span>
                 </div>
               </div>
@@ -149,7 +149,7 @@ const ROISimulator = () => {
             <CardHeader className="pb-4">
               <CardTitle className="text-xl text-foreground flex items-center">
                 <BarChart3 className="h-6 w-6 text-primary mr-2" />
-                Savings Breakdown
+                <T>Savings Breakdown</T>
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -190,11 +190,11 @@ const ROISimulator = () => {
           {/* CTA */}
           <Card className="p-6 bg-gradient-to-r from-primary to-primary/80 text-white">
             <CardContent className="text-center">
-              <h3 className="text-2xl font-bold mb-4">Ready to Achieve These Results?</h3>
-              <p className="mb-6 opacity-90">Schedule a personalized demo to see how Erakulis can transform your organization's wellness ROI</p>
+              <h3 className="text-2xl font-bold mb-4"><T>Ready to Achieve These Results?</T></h3>
+              <p className="mb-6 opacity-90"><T>Schedule a personalized demo to see how Erakulis can transform your organization's wellness ROI</T></p>
               <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90" onClick={() => window.open('https://calendly.com/erakulis', '_blank')}>
                 <Calendar className="mr-2 h-5 w-5" />
-                Schedule ROI Demo
+                <T>Schedule ROI Demo</T>
               </Button>
             </CardContent>
           </Card>
@@ -903,14 +903,13 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-primary/10 text-primary border-primary/20">
-              Industry-Specific Solutions
+              <T>Industry-Specific Solutions</T>
             </Badge>
             <h2 className="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
               Tailored Wellness Solutions for Every Industry
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              ERAKULIS adapts to your unique challenges across diverse sectors, delivering measurable results 
-              that transform workforce well-being into tangible business outcomes.
+              <T>ERAKULIS adapts to your unique challenges across diverse sectors, delivering measurable results that transform workforce well-being into tangible business outcomes.</T>
             </p>
           </div>
 
@@ -924,19 +923,19 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
                       <Building2 className="h-8 w-8 text-blue-600" />
                     </div>
                     <Badge variant="secondary" className="bg-blue-100 text-blue-700 hover:bg-blue-200">
-                      Tech Consultancies
+                      <T>Tech Consultancies</T>
                     </Badge>
                   </div>
                   <div className="text-right">
                     <div className="text-2xl font-bold text-blue-600">25%</div>
-                    <div className="text-xs text-muted-foreground">Absenteeism Reduction</div>
+                    <div className="text-xs text-muted-foreground"><T>Absenteeism Reduction</T></div>
                   </div>
                 </div>
                 <CardTitle className="text-2xl group-hover:text-blue-600 transition-colors">
-                  HR Leaders
+                  <T>HR Leaders</T>
                 </CardTitle>
                 <CardDescription className="text-lg text-muted-foreground">
-                  Combat employee absenteeism, burnout, and mental health challenges with comprehensive wellness solutions
+                  <T>Combat employee absenteeism, burnout, and mental health challenges with comprehensive wellness solutions</T>
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -944,34 +943,34 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
                     <div>
-                      <div className="font-medium">Personalized Plans</div>
-                      <div className="text-sm text-muted-foreground">Fitness & mental health</div>
+                      <div className="font-medium"><T>Personalized Plans</T></div>
+                      <div className="text-sm text-muted-foreground"><T>Fitness & mental health</T></div>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
                     <div>
-                      <div className="font-medium">400+ Integrations</div>
-                      <div className="text-sm text-muted-foreground">Wearables & health apps</div>
+                      <div className="font-medium"><T>400+ Integrations</T></div>
+                      <div className="text-sm text-muted-foreground"><T>Wearables & health apps</T></div>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
                     <div>
-                      <div className="font-medium">Productivity Boost</div>
-                      <div className="text-sm text-muted-foreground">Enhanced retention rates</div>
+                      <div className="font-medium"><T>Productivity Boost</T></div>
+                      <div className="text-sm text-muted-foreground"><T>Enhanced retention rates</T></div>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
                     <div>
-                      <div className="font-medium">Real-time Analytics</div>
-                      <div className="text-sm text-muted-foreground">Health-Monitor Dashboard</div>
+                      <div className="font-medium"><T>Real-time Analytics</T></div>
+                      <div className="text-sm text-muted-foreground"><T>Health-Monitor Dashboard</T></div>
                     </div>
                   </div>
                 </div>
                 <Button className="w-full group-hover:bg-blue-600 transition-colors text-white" onClick={() => window.open('https://calendar.app.google/XknyK8tYZCsQiC4Q8', '_blank')}>
-                  Explore HR Solutions <ArrowRight className="ml-2 h-4 w-4" />
+                  <T>Explore HR Solutions</T> <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </CardContent>
             </Card>
@@ -985,7 +984,7 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
                       <Factory className="h-8 w-8 text-orange-600" />
                     </div>
                     <Badge variant="secondary" className="bg-orange-100 text-orange-700 hover:bg-orange-200">
-                      Manufacturing
+                      <T>Manufacturing</T>
                     </Badge>
                   </div>
                   <div className="text-right">
@@ -994,10 +993,10 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
                   </div>
                 </div>
                 <CardTitle className="text-2xl group-hover:text-orange-600 transition-colors">
-                  Operations Managers
+                  <T>Operations Managers</T>
                 </CardTitle>
                 <CardDescription className="text-lg text-muted-foreground">
-                  Address workforce sedentarism and health-related productivity issues with targeted interventions
+                  <T>Address workforce sedentarism and health-related productivity issues with targeted interventions</T>
                 </CardDescription>
               </CardHeader>
               <CardContent>
