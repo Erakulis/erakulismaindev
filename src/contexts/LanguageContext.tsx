@@ -71,6 +71,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Learn More': 'Saiba Mais',
           'Sign Up': 'Cadastrar',
           'Login': 'Entrar',
+          'The App': 'A App',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
@@ -85,6 +86,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Learn More': 'Saiba Mais',
           'Sign Up': 'Cadastrar',
           'Login': 'Entrar',
+          'The App': 'A App',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
