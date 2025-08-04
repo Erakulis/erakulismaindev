@@ -5,25 +5,25 @@ export const TestimonialsSection = () => {
     {
       name: "Sarah Kim",
       role: "Gym Trainer", 
-      text: "Apura makes fitness fun! The detailed progress reports keep me motivated. I love how it adapts to my routine and helps me improve step by step.",
+      text: "Erakulis makes fitness fun! The detailed progress reports keep me motivated. I love how it adapts to my routine and helps me improve step by step.",
       rating: 5
     },
     {
       name: "Emily W.",
       role: "Yoga Enthusiast",
-      text: "Finally, a fitness tracker that works for me! Apura has completely transformed the way I track my workouts and progress.",
+      text: "Finally, a fitness tracker that works for me! Erakulis has completely transformed the way I track my workouts and progress.",
       rating: 5
     },
     {
       name: "Jane Cooper", 
       role: "Working Mom",
-      text: "Best fitness tracker I've ever used! Apura's advanced tracking and AI-driven suggestions have helped me get in the best shape of my life.",
+      text: "Best fitness tracker I've ever used! Erakulis's advanced tracking and AI-driven suggestions have helped me get in the best shape of my life.",
       rating: 5
     },
     {
       name: "Merry S. Myrick",
       role: "Runner",
-      text: "Apura keeps me accountable with real-time stats and personalized goals. It's like having a personal trainer on my wrist!",
+      text: "Erakulis keeps me accountable with real-time stats and personalized goals. It's like having a personal trainer on my wrist!",
       rating: 5
     },
     {
@@ -35,13 +35,13 @@ export const TestimonialsSection = () => {
     {
       name: "Laura B",
       role: "Personal Trainer",
-      text: "With Apura's calorie tracking and workout recommendations, I've lost 15 pounds in just two months. Highly recommended!",
+      text: "With Erakulis's calorie tracking and workout recommendations, I've lost 15 pounds in just two months. Highly recommended!",
       rating: 5
     },
     {
       name: "Felix E. Pierre",
       role: "Fitness Beginner",
-      text: "I love how Apura syncs with my schedule and reminds me to move. Even on busy days, I stay active without stress.",
+      text: "I love how Erakulis syncs with my schedule and reminds me to move. Even on busy days, I stay active without stress.",
       rating: 5
     },
     {
@@ -53,7 +53,7 @@ export const TestimonialsSection = () => {
     {
       name: "Elias R. Roland",
       role: "Cyclist",
-      text: "I've tried many fitness trackers, but Apura stands out with its accuracy and insights. It keeps me moving every day!",
+      text: "I've tried many fitness trackers, but Erakulis stands out with its accuracy and insights. It keeps me moving every day!",
       rating: 5
     }
   ];
