@@ -142,7 +142,9 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Our Model': 'O Nosso Modelo',
           'Tailored Wellness Solutions for Every Industry': 'Soluções de Bem-estar Personalizadas para Cada Indústria',
           'ERAKULIS adapts to your unique challenges across diverse sectors, delivering measurable results that transform workforce well-being into tangible business outcomes.': 'A ERAKULIS adapta-se aos seus desafios únicos em sectores diversificados, proporcionando resultados mensuráveis que transformam o bem-estar da força de trabalho em resultados de negócio tangíveis.',
-          'Where professional expertise meets user-friendly wellness. Discover how our seamlessly integrated ecosystem creates lasting impact.': 'Onde a experiência profissional encontra o bem-estar fácil de usar. Descubra como o nosso ecossistema perfeitamente integrado cria um impacto duradouro.'
+          'Where professional expertise meets user-friendly wellness. Discover how our seamlessly integrated ecosystem creates lasting impact.': 'Onde a experiência profissional encontra o bem-estar fácil de usar. Descubra como o nosso ecossistema perfeitamente integrado cria um impacto duradouro.',
+          'Workouts made easier and faster': 'Exercícios mais fáceis e rápidos',
+          'Download now and begin your Journey to Better Health': 'Baixe agora e comece sua Jornada para uma Saúde Melhor'
         },
         'pt-br': {
           'Home': 'Início',

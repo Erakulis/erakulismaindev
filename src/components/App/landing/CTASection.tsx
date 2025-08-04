@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 import appMockup from "@/assets/app-mockup.jpg";
+import { T } from "@/hooks/useTranslation";
 
 export const CTASection = () => {
   return (
@@ -11,7 +12,7 @@ export const CTASection = () => {
           {/* Left Content */}
           <div className="flex-1 text-center lg:text-left">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Download now and begin your Journey to Better Health
+              <T>Download now and begin your Journey to Better Health</T>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl">
               The Fitness Builder app empowers you to craft personalized workouts tailored to your goals. 

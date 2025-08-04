@@ -15,7 +15,7 @@ export const FeaturesSection = () => {
       id: "fitness",
       badge: "Empowering Features for Fitness",
       title: "Fitness Power Features",
-      subtitle: "Workouts made easier and faster",
+      subtitle: <T>Workouts made easier and faster</T>,
       description: "Take control of your fitness journey with our comprehensive approach to wellness. Track your progress, set goals, and stay motivated with our powerful features.",
       image: workoutImage,
       imageAlt: "Fitness App Interface",

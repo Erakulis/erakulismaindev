@@ -1,3 +1,5 @@
+import { T } from "@/hooks/useTranslation";
+
 const googlePlayButton = "/assets/images/86fd7106-dd74-44ea-98b1-1ad6d67c95fa.png";
 const appStoreButton = "/assets/images/b214088a-05e2-4b56-baff-bddeefc80c25.png";
 
@@ -29,7 +31,7 @@ export const CTASection = () => {
               {/* Left Content */}
               <div className="flex-1 text-center lg:text-left">
                 <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-                  Download now and begin your Journey to Better Health
+                  <T>Download now and begin your Journey to Better Health</T>
                 </h2>
                 <p className="text-xl text-white/80 mb-8 max-w-2xl leading-relaxed">
                   The Fitness Builder app empowers you to craft personalized workouts tailored to your goals. 
