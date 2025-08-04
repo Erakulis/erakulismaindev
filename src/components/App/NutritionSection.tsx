@@ -1,6 +1,7 @@
 import { Apple, BarChart3, Utensils, Calculator, Sparkles, ChevronLeft, ChevronRight } from "lucide-react";
 import useEmblaCarousel from 'embla-carousel-react';
 import { useCallback, useEffect, useState } from 'react';
+import { T } from "@/hooks/useTranslation";
 const nutritionImage = "/assets/images/de813fc4-7d5a-4693-8abc-0ca450bd07c0.png";
 
 export const NutritionSection = () => {

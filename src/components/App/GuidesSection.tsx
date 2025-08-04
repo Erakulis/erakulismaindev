@@ -1,4 +1,5 @@
 import { Heart, Activity, Brain, Moon, Dumbbell } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 export const GuidesSection = () => {
   const guides = [
@@ -49,10 +50,10 @@ export const GuidesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Erakulis guides you to
+            <T>Erakulis guides you to</T>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Take control of your health with our comprehensive approach to wellness
+            <T>Take control of your health with our comprehensive approach to wellness</T>
           </p>
         </div>
 
@@ -76,10 +77,10 @@ export const GuidesSection = () => {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-xl font-bold text-white mb-2 drop-shadow-lg">
-                        {guide.title}
+                        <T>{guide.title}</T>
                       </h3>
                       <p className="text-white/90 leading-relaxed drop-shadow-md text-sm">
-                        {guide.description}
+                        <T>{guide.description}</T>
                       </p>
                     </div>
                   </div>
@@ -108,10 +109,10 @@ export const GuidesSection = () => {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3 drop-shadow-lg">
-                        {guides[0].title}
+                        <T>{guides[0].title}</T>
                       </h3>
                       <p className="text-white/90 leading-relaxed drop-shadow-md text-lg">
-                        {guides[0].description}
+                        <T>{guides[0].description}</T>
                       </p>
                     </div>
                   </div>
@@ -135,10 +136,10 @@ export const GuidesSection = () => {
                     <Activity className="w-8 h-8" />
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-4 drop-shadow-lg">
-                    {guides[1].title}
+                    <T>{guides[1].title}</T>
                   </h3>
                   <p className="text-white/90 leading-relaxed drop-shadow-md">
-                    {guides[1].description}
+                    <T>{guides[1].description}</T>
                   </p>
                 </div>
               </div>
@@ -160,10 +161,10 @@ export const GuidesSection = () => {
                     <Brain className="w-8 h-8" />
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-4 drop-shadow-lg">
-                    {guides[2].title}
+                    <T>{guides[2].title}</T>
                   </h3>
                   <p className="text-white/90 leading-relaxed drop-shadow-md">
-                    {guides[2].description}
+                    <T>{guides[2].description}</T>
                   </p>
                 </div>
               </div>
@@ -184,10 +185,10 @@ export const GuidesSection = () => {
                     <Moon className="w-8 h-8" />
                   </div>
                   <h3 className="text-2xl font-bold text-white mb-4 drop-shadow-lg">
-                    {guides[3].title}
+                    <T>{guides[3].title}</T>
                   </h3>
                   <p className="text-white/90 leading-relaxed drop-shadow-md">
-                    {guides[3].description}
+                    <T>{guides[3].description}</T>
                   </p>
                 </div>
               </div>
@@ -211,10 +212,10 @@ export const GuidesSection = () => {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl lg:text-3xl font-bold text-white mb-3 drop-shadow-lg">
-                        {guides[4].title}
+                        <T>{guides[4].title}</T>
                       </h3>
                       <p className="text-white/90 leading-relaxed drop-shadow-md text-lg">
-                        {guides[4].description}
+                        <T>{guides[4].description}</T>
                       </p>
                     </div>
                   </div>

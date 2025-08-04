@@ -1,6 +1,7 @@
 import { Brain, Heart, Moon, Smile, Sparkles, ChevronLeft, ChevronRight, Shield, Target } from "lucide-react";
 import useEmblaCarousel from 'embla-carousel-react';
 import { useCallback, useEffect, useState } from 'react';
+import { T } from "@/hooks/useTranslation";
 const mentalWellnessImage = "/assets/images/c3258352-4534-48f0-8d7b-c645e1fdb665.png";
 
 export const MentalWellbeingSection = () => {

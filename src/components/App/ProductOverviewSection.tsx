@@ -1,4 +1,5 @@
 import { Target, Smartphone, Users, Zap, Activity } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 export const ProductOverviewSection = () => {
   const features = [
@@ -40,11 +41,10 @@ export const ProductOverviewSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            <span className="text-primary">Fitness, Nutrition</span> and <span className="text-primary">Mind</span> United
+            <span className="text-primary"><T>Fitness, Nutrition</T></span> <T>and</T> <span className="text-primary"><T>Mind</T></span> <T>United</T>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our approach brings fitness, nutrition, and mental well-being together, 
-            creating a powerful foundation for lasting health.
+            <T>Our approach brings fitness, nutrition, and mental well-being together, creating a powerful foundation for lasting health.</T>
           </p>
         </div>
 
@@ -58,10 +58,10 @@ export const ProductOverviewSection = () => {
                 <Target className="w-8 h-8 text-gray-700" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-3">
-                Holistic Integration
+                <T>Holistic Integration</T>
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                We believe in a holistic approach to wellness. Our platform allows you to track your fitness activities, meals, mindfulness time, sleep, and more.
+                <T>We believe in a holistic approach to wellness. Our platform allows you to track your fitness activities, meals, mindfulness time, sleep, and more.</T>
               </p>
             </div>
 
@@ -71,10 +71,10 @@ export const ProductOverviewSection = () => {
                 <Smartphone className="w-8 h-8 text-gray-700" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-3">
-                Goal Setting
+                <T>Goal Setting</T>
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Set personalized fitness goals and crush them with our comprehensive tracking system.
+                <T>Set personalized fitness goals and crush them with our comprehensive tracking system.</T>
               </p>
             </div>
           </div>
@@ -89,10 +89,10 @@ export const ProductOverviewSection = () => {
             >
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-center">
-                  Easy Tracking and Real-Time Monitoring
+                  <T>Easy Tracking and Real-Time Monitoring</T>
                 </h3>
                 <p className="text-white/90 mb-8 leading-relaxed text-center text-base">
-                  Easily log your activities with AI-powered tools and experience real-time monitoring, driving measurable results and enhancing your wellness outcomes.
+                  <T>Easily log your activities with AI-powered tools and experience real-time monitoring, driving measurable results and enhancing your wellness outcomes.</T>
                 </p>
                 
                 {/* Phone Mockup */}
@@ -162,10 +162,10 @@ export const ProductOverviewSection = () => {
                 <Users className="w-8 h-8 text-gray-700" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-3">
-                Personalized Plans
+                <T>Personalized Plans</T>
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Get a personalized plan for fitness, nutrition, and mental balance, tailored to deliver sustainable results.
+                <T>Get a personalized plan for fitness, nutrition, and mental balance, tailored to deliver sustainable results.</T>
               </p>
             </div>
 
@@ -175,10 +175,10 @@ export const ProductOverviewSection = () => {
                 <Zap className="w-8 h-8 text-gray-700" />
               </div>
               <h3 className="text-lg font-bold text-foreground mb-3">
-                +300 Wearable Integration
+                <T>+300 Wearable Integration</T>
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Seamless integration with over 300 wearables for real-time tracking and data-driven insights.
+                <T>Seamless integration with over 300 wearables for real-time tracking and data-driven insights.</T>
               </p>
             </div>
           </div>
@@ -195,10 +195,10 @@ export const ProductOverviewSection = () => {
           >
             <div className="relative z-10 text-center">
               <h3 className="text-xl font-bold mb-3">
-                Easy Tracking and Real-Time Monitoring
+                <T>Easy Tracking and Real-Time Monitoring</T>
               </h3>
               <p className="text-white/90 mb-6 leading-relaxed text-sm">
-                Easily log your activities with AI-powered tools and experience real-time monitoring, driving measurable results and enhancing your wellness outcomes.
+                <T>Easily log your activities with AI-powered tools and experience real-time monitoring, driving measurable results and enhancing your wellness outcomes.</T>
               </p>
               
               {/* Simplified Phone Mockup */}
@@ -231,10 +231,10 @@ export const ProductOverviewSection = () => {
                 <Target className="w-6 h-6 text-gray-700" />
               </div>
               <h3 className="text-sm font-bold text-foreground mb-2">
-                Holistic Integration
+                <T>Holistic Integration</T>
               </h3>
               <p className="text-muted-foreground text-xs leading-relaxed">
-                Track fitness, meals, mindfulness, and sleep.
+                <T>Track fitness, meals, mindfulness, and sleep.</T>
               </p>
             </div>
 
@@ -243,10 +243,10 @@ export const ProductOverviewSection = () => {
                 <Users className="w-6 h-6 text-gray-700" />
               </div>
               <h3 className="text-sm font-bold text-foreground mb-2">
-                Personalized Plans
+                <T>Personalized Plans</T>
               </h3>
               <p className="text-muted-foreground text-xs leading-relaxed">
-                Tailored fitness, nutrition, and mental balance plans.
+                <T>Tailored fitness, nutrition, and mental balance plans.</T>
               </p>
             </div>
 
@@ -255,10 +255,10 @@ export const ProductOverviewSection = () => {
                 <Smartphone className="w-6 h-6 text-gray-700" />
               </div>
               <h3 className="text-sm font-bold text-foreground mb-2">
-                Goal Setting
+                <T>Goal Setting</T>
               </h3>
               <p className="text-muted-foreground text-xs leading-relaxed">
-                Set and crush personalized fitness goals.
+                <T>Set and crush personalized fitness goals.</T>
               </p>
             </div>
 
@@ -267,10 +267,10 @@ export const ProductOverviewSection = () => {
                 <Zap className="w-6 h-6 text-gray-700" />
               </div>
               <h3 className="text-sm font-bold text-foreground mb-2">
-                +300 Wearables
+                <T>+300 Wearables</T>
               </h3>
               <p className="text-muted-foreground text-xs leading-relaxed">
-                Seamless integration with 300+ wearables.
+                <T>Seamless integration with 300+ wearables.</T>
               </p>
             </div>
           </div>

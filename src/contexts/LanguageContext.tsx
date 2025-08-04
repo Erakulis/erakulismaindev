@@ -80,6 +80,13 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Why Erakulis': 'Porquê Erakulis',
           'Medicine promised longer, healthier lives but delivered longer, sicker ones.': 'A medicina prometeu uma vida mais longa e saudável, mas entregou vidas mais longas e mais doentes.',
           'Erakulis empowers you to live longer but healthier by helping you to eat better, stay active and lower your stress.': 'A Erakulis capacita-te a viver mais e mais saudável, ajudando-te a comer melhor, permanecer activo e reduzir stress.',
+          'Erakulis guides you to': 'A Erakulis guia-te para',
+          'Take control of your health with our comprehensive approach to wellness': 'Assume o controlo da tua saúde com a nossa abordagem abrangente ao bem-estar',
+          'Fitness, Nutrition': 'Fitness, Nutrição',
+          'and': 'e',
+          'Mind': 'Mente',
+          'United': 'Unidos',
+          'Our approach brings fitness, nutrition, and mental well-being together, creating a powerful foundation for lasting health.': 'A nossa abordagem une fitness, nutrição e bem-estar mental, criando uma base poderosa para uma saúde duradoura.',
           'Privacy Policy': 'Política de Privacidade',
           'Terms & Conditions': 'Termos e Condições',
           'Cookies Policy': 'Política de Cookies'
