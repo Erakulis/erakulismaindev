@@ -39,8 +39,8 @@ const Footer = () => {
             <h4 className="font-semibold text-white">Product</h4>
             <ul className="space-y-3">
               <li>
-                <a href="/why-erakulis" className="text-slate-300 hover:text-white transition-colors">
-                  Why Erakulis
+                <a href="/" className="text-slate-300 hover:text-white transition-colors">
+                  Erakulis App
                 </a>
               </li>
               <li>
