@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/App/ui/button";
 import { Heart, Download, Apple } from "lucide-react";
 
 export const Footer = () => {

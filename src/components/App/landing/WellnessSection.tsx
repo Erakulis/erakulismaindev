@@ -1,5 +1,5 @@
 import { Activity, Apple, Brain, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/App/ui/button";
 
 const wellnessAreas = [
   {

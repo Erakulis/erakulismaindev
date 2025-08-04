@@ -1,5 +1,5 @@
 import { Watch, Smartphone, Brain, TrendingUp } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/App/ui/button";
 
 export const ConnectedSection = () => {
   return (
