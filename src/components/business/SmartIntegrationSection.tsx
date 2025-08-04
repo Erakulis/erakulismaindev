@@ -3,33 +3,12 @@ import { Card } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import techInterface1 from "@/assets/tech-interface-1.jpg";
-import techInterface2 from "@/assets/tech-interface-2.jpg";
-import techInterface3 from "@/assets/tech-interface-3.jpg";
-import techInterface4 from "@/assets/tech-interface-4.jpg";
+
 
 const SmartIntegrationSection = () => {
   const carouselData = [
     {
-      image: techInterface1,
-      title: "Erakulis PRO",
-      professionals: "500+",
-      clients: "10k+"
-    },
-    {
-      image: techInterface2,
-      title: "Erakulis PRO",
-      professionals: "500+",
-      clients: "10k+"
-    },
-    {
-      image: techInterface3,
-      title: "Erakulis PRO",
-      professionals: "500+",
-      clients: "10k+"
-    },
-    {
-      image: techInterface4,
+      image: "/lovable-uploads/056f5064-4778-418b-9c08-33d39e2f4cff.png",
       title: "Erakulis PRO",
       professionals: "500+",
       clients: "10k+"
@@ -83,42 +62,32 @@ const SmartIntegrationSection = () => {
           </TabsList>
           
           <TabsContent value="pro" className="space-y-12">
-            {/* Carousel */}
+            {/* Single Image Display */}
             <div className="relative max-w-4xl mx-auto">
-              <Carousel className="w-full">
-                <CarouselContent>
-                  {carouselData.map((item, index) => (
-                    <CarouselItem key={index}>
-                      <Card className="overflow-hidden">
-                        <div className="relative">
-                          <img 
-                            src={item.image} 
-                            alt={`${item.title} interface ${index + 1}`}
-                            className="w-full h-[400px] object-cover"
-                          />
-                          <div className="absolute bottom-6 left-6 right-6">
-                            <Card className="p-4 bg-background/95 backdrop-blur-sm">
-                              <h3 className="text-xl font-bold mb-4">{item.title}</h3>
-                              <div className="grid grid-cols-2 gap-4">
-                                <div className="text-center">
-                                  <div className="text-2xl font-bold text-primary">{item.professionals}</div>
-                                  <div className="text-sm text-muted-foreground">Professionals</div>
-                                </div>
-                                <div className="text-center">
-                                  <div className="text-2xl font-bold text-primary">{item.clients}</div>
-                                  <div className="text-sm text-muted-foreground">Clients</div>
-                                </div>
-                              </div>
-                            </Card>
-                          </div>
+              <Card className="overflow-hidden">
+                <div className="relative">
+                  <img 
+                    src="/lovable-uploads/056f5064-4778-418b-9c08-33d39e2f4cff.png" 
+                    alt="Erakulis PRO Dashboard interface"
+                    className="w-full h-[400px] object-cover"
+                  />
+                  <div className="absolute bottom-6 left-6 right-6">
+                    <Card className="p-4 bg-background/95 backdrop-blur-sm">
+                      <h3 className="text-xl font-bold mb-4">Erakulis PRO</h3>
+                      <div className="grid grid-cols-2 gap-4">
+                        <div className="text-center">
+                          <div className="text-2xl font-bold text-primary">500+</div>
+                          <div className="text-sm text-muted-foreground">Professionals</div>
                         </div>
-                      </Card>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
-              </Carousel>
+                        <div className="text-center">
+                          <div className="text-2xl font-bold text-primary">10k+</div>
+                          <div className="text-sm text-muted-foreground">Clients</div>
+                        </div>
+                      </div>
+                    </Card>
+                  </div>
+                </div>
+              </Card>
             </div>
 
             {/* CTA */}
