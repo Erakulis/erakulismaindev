@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { T } from "@/hooks/useTranslation";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
@@ -47,18 +48,17 @@ const SmartIntegrationSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Smart Wellness Integration
+            <T>Smart Wellness Integration</T>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Where professional expertise meets user-friendly wellness. Discover how our 
-            seamlessly integrated ecosystem creates lasting impact.
+            <T>Where professional expertise meets user-friendly wellness. Discover how our seamlessly integrated ecosystem creates lasting impact.</T>
           </p>
         </div>
         
         <Tabs defaultValue="pro" className="w-full">
           <TabsList className="grid w-full grid-cols-2 max-w-md mx-auto mb-12">
-            <TabsTrigger value="pro" className="text-lg">Erakulis PRO</TabsTrigger>
-            <TabsTrigger value="mobile" className="text-lg">Erakulis Mobile</TabsTrigger>
+            <TabsTrigger value="pro" className="text-lg"><T>Erakulis PRO</T></TabsTrigger>
+            <TabsTrigger value="mobile" className="text-lg"><T>Erakulis Mobile</T></TabsTrigger>
           </TabsList>
           
           <TabsContent value="pro" className="space-y-12">
@@ -73,15 +73,15 @@ const SmartIntegrationSection = () => {
                   />
                   <div className="absolute bottom-6 left-6 right-6">
                     <Card className="p-4 bg-background/95 backdrop-blur-sm">
-                      <h3 className="text-xl font-bold mb-4">Erakulis PRO</h3>
+                      <h3 className="text-xl font-bold mb-4"><T>Erakulis PRO</T></h3>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="text-center">
                           <div className="text-2xl font-bold text-primary">500+</div>
-                          <div className="text-sm text-muted-foreground">Professionals</div>
+                          <div className="text-sm text-muted-foreground"><T>Professionals</T></div>
                         </div>
                         <div className="text-center">
                           <div className="text-2xl font-bold text-primary">10k+</div>
-                          <div className="text-sm text-muted-foreground">Clients</div>
+                          <div className="text-sm text-muted-foreground"><T>Clients</T></div>
                         </div>
                       </div>
                     </Card>
@@ -92,31 +92,31 @@ const SmartIntegrationSection = () => {
 
             {/* CTA */}
             <Card className="p-8 text-center bg-gradient-card">
-              <h3 className="text-2xl font-bold mb-4">Ready to Scale Your Business?</h3>
+              <h3 className="text-2xl font-bold mb-4"><T>Ready to Scale Your Business?</T></h3>
               <p className="text-muted-foreground mb-6">
-                Schedule a discovery call to learn how Erakulis PRO can transform your fitness business
+                <T>Schedule a discovery call to learn how Erakulis PRO can transform your fitness business</T>
               </p>
               <Button size="lg" className="text-lg px-8 py-6">
-                Schedule Discovery Call
+                <T>Schedule Discovery Call</T>
               </Button>
             </Card>
 
             {/* Key Features */}
             <div className="space-y-8">
               <div className="text-center">
-                <h3 className="text-2xl font-bold mb-4">Key Features</h3>
-                <p className="text-muted-foreground">Everything you need to succeed</p>
+                <h3 className="text-2xl font-bold mb-4"><T>Key Features</T></h3>
+                <p className="text-muted-foreground"><T>Everything you need to succeed</T></p>
                 <div className="flex justify-center gap-4 mt-4">
-                  <Badge variant="outline" className="text-lg px-4 py-2">Enterprise Ready</Badge>
-                  <Badge variant="outline" className="text-lg px-4 py-2">HIPAA Compliant</Badge>
+                  <Badge variant="outline" className="text-lg px-4 py-2"><T>Enterprise Ready</T></Badge>
+                  <Badge variant="outline" className="text-lg px-4 py-2"><T>HIPAA Compliant</T></Badge>
                 </div>
               </div>
               
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {features.map((feature, index) => (
                   <Card key={index} className="p-6 hover:shadow-medium transition-all duration-300">
-                    <h4 className="font-bold mb-3">{feature.title}</h4>
-                    <p className="text-sm text-muted-foreground">{feature.description}</p>
+                    <h4 className="font-bold mb-3"><T>{feature.title}</T></h4>
+                    <p className="text-sm text-muted-foreground"><T>{feature.description}</T></p>
                   </Card>
                 ))}
               </div>
@@ -125,21 +125,21 @@ const SmartIntegrationSection = () => {
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div>
                   <div className="text-4xl font-bold text-primary mb-2">500+</div>
-                  <div className="text-muted-foreground">Professionals</div>
+                  <div className="text-muted-foreground"><T>Professionals</T></div>
                 </div>
                 <div>
                   <div className="text-4xl font-bold text-primary mb-2">10k+</div>
-                  <div className="text-muted-foreground">Clients Managed</div>
+                  <div className="text-muted-foreground"><T>Clients Managed</T></div>
                 </div>
                 <div>
                   <div className="text-4xl font-bold text-primary mb-2">95%</div>
-                  <div className="text-muted-foreground">Success Rate</div>
+                  <div className="text-muted-foreground"><T>Success Rate</T></div>
                 </div>
               </div>
               
               <div className="text-center">
                 <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                  Explore PRO Platform
+                  <T>Explore PRO Platform</T>
                 </Button>
               </div>
             </div>
@@ -147,8 +147,8 @@ const SmartIntegrationSection = () => {
           
           <TabsContent value="mobile" className="space-y-8">
             <div className="text-center">
-              <h3 className="text-2xl font-bold mb-4">Mobile Experience</h3>
-              <p className="text-muted-foreground">Complete wellness platform in your pocket</p>
+              <h3 className="text-2xl font-bold mb-4"><T>Mobile Experience</T></h3>
+              <p className="text-muted-foreground"><T>Complete wellness platform in your pocket</T></p>
             </div>
           </TabsContent>
         </Tabs>

@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { T } from "@/hooks/useTranslation";
  
 
 const CristianoSection = () => {
@@ -23,54 +24,51 @@ const CristianoSection = () => {
               </div>
               <div>
                 <div className="text-2xl font-bold">CR7</div>
-                <div className="text-sm text-muted-foreground">Global Wellness Ambassador</div>
-                <div className="text-sm text-muted-foreground font-medium">Founder Cristiano Ronaldo</div>
+                <div className="text-sm text-muted-foreground"><T>Global Wellness Ambassador</T></div>
+                <div className="text-sm text-muted-foreground font-medium"><T>Founder Cristiano Ronaldo</T></div>
               </div>
             </div>
             
             <h2 className="text-3xl lg:text-5xl font-bold leading-tight">
-              Cristiano Ronaldo's Formula for{" "}
+              <T>Cristiano Ronaldo's Formula for</T>{" "}
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Corporate Well-Being & Success
+                <T>Corporate Well-Being & Success</T>
               </span>
             </h2>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Step into Cristiano Ronaldo's wellness ecosystem, reimagined for today's corporate teams. 
-              Erakulis has transformed Ronaldo's daily disciplines in training, recovery, nutrition, 
-              and mindset into personalized, data-driven journeys that elevate employee well-being 
-              and fuel business performance.
+              <T>Step into Cristiano Ronaldo's wellness ecosystem, reimagined for today's corporate teams. Erakulis has transformed Ronaldo's daily disciplines in training, recovery, nutrition, and mindset into personalized, data-driven journeys that elevate employee well-being and fuel business performance.</T>
             </p>
             
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="p-4 text-center hover:shadow-medium transition-all duration-300">
-                <h4 className="font-bold mb-2">Performance & Health-Driven Approach</h4>
+                <h4 className="font-bold mb-2"><T>Performance & Health-Driven Approach</T></h4>
                 <p className="text-sm text-muted-foreground">
-                  Solutions designed for longevity and human performance
+                  <T>Solutions designed for longevity and human performance</T>
                 </p>
               </Card>
               
               <Card className="p-4 text-center hover:shadow-medium transition-all duration-300">
-                <h4 className="font-bold mb-2">Holistic Wellness Philosophy</h4>
+                <h4 className="font-bold mb-2"><T>Holistic Wellness Philosophy</T></h4>
                 <p className="text-sm text-muted-foreground">
-                  Mind, body, and spirit integration
+                  <T>Mind, body, and spirit integration</T>
                 </p>
               </Card>
               
               <Card className="p-4 text-center hover:shadow-medium transition-all duration-300">
-                <h4 className="font-bold mb-2">Global Impact Vision</h4>
+                <h4 className="font-bold mb-2"><T>Global Impact Vision</T></h4>
                 <p className="text-sm text-muted-foreground">
-                  Transforming wellness worldwide
+                  <T>Transforming wellness worldwide</T>
                 </p>
               </Card>
             </div>
             
             <div className="flex gap-4">
               <Button size="lg" className="text-lg px-8 py-6">
-                Find the Formula
+                <T>Find the Formula</T>
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                Erakulis Formula
+                <T>Erakulis Formula</T>
               </Button>
             </div>
           </div>
@@ -80,8 +78,8 @@ const CristianoSection = () => {
             <div className="bg-gradient-hero rounded-2xl h-[600px] flex items-center justify-center">
               <div className="text-center text-white">
                 <div className="text-6xl mb-4">⚽</div>
-                <div className="text-xl font-bold">CR7 Wellness Ecosystem</div>
-                <div className="text-lg opacity-90">Reimagined for Corporate Teams</div>
+                <div className="text-xl font-bold"><T>CR7 Wellness Ecosystem</T></div>
+                <div className="text-lg opacity-90"><T>Reimagined for Corporate Teams</T></div>
               </div>
             </div>
           </div>

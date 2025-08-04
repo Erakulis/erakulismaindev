@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { T } from "@/hooks/useTranslation";
 import { Zap, Calendar, GraduationCap, ArrowRight } from "lucide-react";
 
 const CTAHeroSection = () => {
@@ -34,7 +35,7 @@ const CTAHeroSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            Ready to Transform Your Business?
+            <T>Ready to Transform Your Business?</T>
           </h2>
           <img 
             src="/assets/images/1ec2046c-56d6-4b03-8700-698f7a4efbe2.png" 
@@ -42,7 +43,7 @@ const CTAHeroSection = () => {
             className="h-12 w-auto mx-auto mb-4"
           />
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Discover the smartest way to manage clients and plans.
+            <T>Discover the smartest way to manage clients and plans.</T>
           </p>
         </div>
         {/* CTA Options Grid */}
@@ -58,7 +59,7 @@ const CTAHeroSection = () => {
               >
                 {option.highlight && (
                   <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary px-3 py-1 rounded-full text-xs font-semibold text-primary-foreground">
-                    No cost
+                    <T>No cost</T>
                   </div>
                 )}
 
@@ -71,10 +72,10 @@ const CTAHeroSection = () => {
                   {/* Content */}
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-1">
-                      {option.title}
+                      <T>{option.title}</T>
                     </h3>
                     <p className="text-sm text-muted-foreground">
-                      {option.description}
+                      <T>{option.description}</T>
                     </p>
                   </div>
 
@@ -86,7 +87,7 @@ const CTAHeroSection = () => {
                         size="default" 
                         className="w-full group-hover:scale-105 transition-smooth"
                       >
-                        {option.action}
+                        <T>{option.action}</T>
                         <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-smooth" />
                       </Button>
                     </a>
@@ -97,7 +98,7 @@ const CTAHeroSection = () => {
                         size="default" 
                         className="w-full group-hover:scale-105 transition-smooth"
                       >
-                        {option.action}
+                        <T>{option.action}</T>
                         <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-smooth" />
                       </Button>
                     </a>
@@ -109,7 +110,7 @@ const CTAHeroSection = () => {
                         className="w-full group-hover:scale-105 transition-smooth"
                         style={{ backgroundColor: "#FFA953" }}
                       >
-                        {option.action}
+                        <T>{option.action}</T>
                         <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-smooth" />
                       </Button>
                     </a>
@@ -119,7 +120,7 @@ const CTAHeroSection = () => {
                       size="default" 
                       className="w-full group-hover:scale-105 transition-smooth"
                     >
-                      {option.action}
+                      <T>{option.action}</T>
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-smooth" />
                     </Button>
                   )}

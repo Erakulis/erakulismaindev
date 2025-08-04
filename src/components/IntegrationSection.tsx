@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { T } from "@/hooks/useTranslation";
 import { Smartphone, RefreshCw, CheckCircle } from "lucide-react";
 import appIntegration from "@/assets/app-integration.jpg";
 
@@ -25,21 +26,19 @@ const IntegrationSection = () => {
             <div className="space-y-6">
               <div className="inline-flex items-center gap-2 bg-primary/10 px-4 py-2 rounded-full text-sm font-medium text-primary">
                 <RefreshCw className="w-4 h-4" />
-                100% Synchronized
+                <T>100% Synchronized</T>
               </div>
               
               <h2 className="text-4xl lg:text-5xl font-bold leading-tight text-foreground">
-                Transformed{" "}
+                <T>Transformed</T>{" "}
                 <span className="text-primary">
-                  Client
+                  <T>Client</T>
                 </span>{" "}
-                Experience
+                <T>Experience</T>
               </h2>
               
               <p className="text-xl text-muted-foreground leading-relaxed">
-                While you plan and track on the PRO platform, 
-                your clients experience a premium experience on the Erakulis App. 
-                Everything connected, everything in real time.
+                <T>While you plan and track on the PRO platform, your clients experience a premium experience on the Erakulis App. Everything connected, everything in real time.</T>
               </p>
             </div>
 
@@ -52,7 +51,7 @@ const IntegrationSection = () => {
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
                   <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-                  <span className="text-foreground">{feature}</span>
+                  <span className="text-foreground"><T>{feature}</T></span>
                 </div>
               ))}
             </div>
@@ -61,17 +60,17 @@ const IntegrationSection = () => {
             <div className="grid grid-cols-2 gap-6 pt-8">
               <div className="bg-gradient-card p-6 rounded-xl shadow-medium">
                 <div className="text-3xl font-bold text-primary mb-2">24/7</div>
-                <div className="text-sm text-muted-foreground">Active Sync</div>
+                <div className="text-sm text-muted-foreground"><T>Active Sync</T></div>
               </div>
               <div className="bg-gradient-card p-6 rounded-xl shadow-medium">
                 <div className="text-3xl font-bold text-primary mb-2">98%</div>
-                <div className="text-sm text-muted-foreground">Client Satisfaction</div>
+                <div className="text-sm text-muted-foreground"><T>Client Satisfaction</T></div>
               </div>
             </div>
 
             <a href="https://hub.erakulis.com/erakulis-academy/" target="_blank" rel="noopener noreferrer">
               <Button variant="corporate" size="lg" className="text-lg px-8">
-                Watch Video
+                <T>Watch Video</T>
               </Button>
             </a>
           </div>
@@ -102,7 +101,7 @@ const IntegrationSection = () => {
                 {/* Live indicator */}
                 <div className="absolute top-8 left-8 flex items-center gap-2 bg-gradient-card px-3 py-2 rounded-full shadow-medium">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="text-xs font-medium">LIVE</span>
+                  <span className="text-xs font-medium"><T>LIVE</T></span>
                 </div>
               </div>
 
@@ -110,10 +109,10 @@ const IntegrationSection = () => {
               <div className="absolute -left-8 top-1/2 bg-gradient-card p-4 rounded-xl shadow-medium max-w-48 animate-fade-in-up">
                 <div className="flex items-center gap-2 mb-2">
                   <Smartphone className="w-4 h-4 text-primary" />
-                  <span className="text-xs font-semibold text-primary">New Workout</span>
+                  <span className="text-xs font-semibold text-primary"><T>New Workout</T></span>
                 </div>
                 <p className="text-xs text-muted-foreground">
-                  Your trainer has updated the plan. Check out what's new!
+                  <T>Your trainer has updated the plan. Check out what's new!</T>
                 </p>
               </div>
             </div>

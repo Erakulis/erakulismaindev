@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { T } from "@/hooks/useTranslation";
 import { Zap, Calendar, GraduationCap, ArrowRight } from "lucide-react";
 
 const CTASection = () => {
@@ -39,13 +40,13 @@ const CTASection = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Ready to Transform{" "}
+            <T>Ready to Transform</T>{" "}
             <span className="text-white/90">
-              Your Business?
+              <T>Your Business?</T>
             </span>
           </h2>
           <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-            Discover the smartest way to manage clients and plans.
+            <T>Discover the smartest way to manage clients and plans.</T>
           </p>
         </div>
 
@@ -63,7 +64,7 @@ const CTASection = () => {
               >
                 {option.highlight && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-white px-4 py-1 rounded-full text-sm font-semibold text-primary">
-                    No cost
+                    <T>No cost</T>
                   </div>
                 )}
 
@@ -76,10 +77,10 @@ const CTASection = () => {
                   {/* Content */}
                   <div>
                     <h3 className="text-2xl font-bold text-white mb-2">
-                      {option.title}
+                      <T>{option.title}</T>
                     </h3>
                     <p className="text-white/70">
-                      {option.description}
+                      <T>{option.description}</T>
                     </p>
                   </div>
 
@@ -92,7 +93,7 @@ const CTASection = () => {
                         className="w-full text-lg group-hover:scale-105 transition-smooth"
                         style={{ backgroundColor: "#FFA953" }}
                       >
-                        {option.action}
+                        <T>{option.action}</T>
                         <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-smooth" />
                       </Button>
                     </a>
@@ -103,7 +104,7 @@ const CTASection = () => {
                         size="lg" 
                         className="w-full text-lg group-hover:scale-105 transition-smooth text-black"
                       >
-                        {option.action}
+                        <T>{option.action}</T>
                         <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-smooth" />
                       </Button>
                     </a>
@@ -114,7 +115,7 @@ const CTASection = () => {
                         size="lg" 
                         className="w-full text-lg group-hover:scale-105 transition-smooth bg-black text-white hover:bg-black/80"
                       >
-                        {option.action}
+                        <T>{option.action}</T>
                         <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-smooth" />
                       </Button>
                     </a>
@@ -124,7 +125,7 @@ const CTASection = () => {
                       size="lg" 
                       className="w-full text-lg group-hover:scale-105 transition-smooth"
                     >
-                      {option.action}
+                      <T>{option.action}</T>
                       <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-smooth" />
                     </Button>
                   )}
@@ -141,7 +142,7 @@ const CTASection = () => {
         <div className="text-center animate-fade-in-up">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full text-white/90 border border-white/20">
             <Zap className="w-5 h-5 text-white" />
-            <span className="font-medium">100% Free • No Limitations • No Commitments</span>
+            <span className="font-medium"><T>100% Free • No Limitations • No Commitments</T></span>
           </div>
         </div>
       </div>

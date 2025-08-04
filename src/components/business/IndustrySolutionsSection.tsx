@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { T } from "@/hooks/useTranslation";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const IndustrySolutionsSection = () => {
@@ -103,15 +104,14 @@ const IndustrySolutionsSection = () => {
         <div className="text-center mb-16">
           <div className="inline-block mb-4">
             <Badge variant="outline" className="text-lg px-4 py-2">
-              Industry-Specific Solutions
+              <T>Industry-Specific Solutions</T>
             </Badge>
           </div>
           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Tailored Wellness Solutions for Every Industry
+            <T>Tailored Wellness Solutions for Every Industry</T>
           </h2>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-            ERAKULIS adapts to your unique challenges across diverse sectors, delivering 
-            measurable results that transform workforce well-being into tangible business outcomes.
+            <T>ERAKULIS adapts to your unique challenges across diverse sectors, delivering measurable results that transform workforce well-being into tangible business outcomes.</T>
           </p>
         </div>
         
@@ -141,11 +141,11 @@ const IndustrySolutionsSection = () => {
                       </div>
                     </div>
                     
-                    <h3 className="text-2xl lg:text-3xl font-bold">{industry.title}</h3>
-                    <p className="text-lg text-muted-foreground">{industry.description}</p>
+                    <h3 className="text-2xl lg:text-3xl font-bold"><T>{industry.title}</T></h3>
+                    <p className="text-lg text-muted-foreground"><T>{industry.description}</T></p>
                     
                     <Button size="lg" className="text-lg px-8 py-6">
-                      {industry.cta}
+                      <T>{industry.cta}</T>
                     </Button>
                   </div>
                   
@@ -153,8 +153,8 @@ const IndustrySolutionsSection = () => {
                   <div className="grid md:grid-cols-2 gap-4">
                     {industry.features.map((feature, index) => (
                       <Card key={index} className="p-4 hover:shadow-medium transition-all duration-300">
-                        <h4 className="font-bold mb-2">{feature.label}</h4>
-                        <p className="text-sm text-muted-foreground">{feature.detail}</p>
+                        <h4 className="font-bold mb-2"><T>{feature.label}</T></h4>
+                        <p className="text-sm text-muted-foreground"><T>{feature.detail}</T></p>
                       </Card>
                     ))}
                   </div>

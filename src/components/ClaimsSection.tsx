@@ -1,4 +1,5 @@
 import { Clock, Users, TrendingUp } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 const ClaimsSection = () => {
   const claims = [
@@ -46,13 +47,13 @@ const ClaimsSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in-up">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-foreground">
-            Why Choose{" "}
+            <T>Why Choose</T>{" "}
             <span className="text-primary">
-              Erakulis PRO?
+              <T>Erakulis PRO?</T>
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Three fundamental pillars that transform your work
+            <T>Three fundamental pillars that transform your work</T>
           </p>
         </div>
 
@@ -77,10 +78,10 @@ const ClaimsSection = () => {
                 {/* Content */}
                 <div className="relative z-10">
                   <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-smooth">
-                    {claim.title}
+                    <T>{claim.title}</T>
                   </h3>
                   <p className="text-muted-foreground mb-6 font-medium">
-                    {claim.subtitle}
+                    <T>{claim.subtitle}</T>
                   </p>
 
                   {/* Features List */}
@@ -88,7 +89,7 @@ const ClaimsSection = () => {
                     {claim.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-start gap-3">
                         <div className={`w-2 h-2 rounded-full bg-gradient-to-r ${claim.gradient} mt-2 flex-shrink-0`}></div>
-                        <span className="text-sm text-foreground">{feature}</span>
+                        <span className="text-sm text-foreground"><T>{feature}</T></span>
                       </li>
                     ))}
                   </ul>
