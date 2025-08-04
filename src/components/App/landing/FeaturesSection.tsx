@@ -1,4 +1,5 @@
 import { Activity, Target, Brain, BarChart3, Smartphone, Sparkles } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 const workoutImage = "/assets/images/6467c7bf-e014-47a5-ba48-bf9c9d9c379f.png";
 
@@ -38,11 +39,11 @@ export const FeaturesSection = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 bg-gradient-glass backdrop-blur-md border border-primary/20 rounded-full mb-6">
             <Sparkles className="w-4 h-4 text-primary mr-2" />
-            <span className="text-sm font-medium text-primary">Empowering Features for Fitness</span>
+            <span className="text-sm font-medium text-primary"><T>Empowering Features for Fitness</T></span>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Empowering Features for Fitness
+            <T>Empowering Features for Fitness</T>
           </h2>
         </div>
 
@@ -55,11 +56,11 @@ export const FeaturesSection = () => {
               </div>
               
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                {feature.title}
+                <T>{feature.title}</T>
               </h3>
               
               <p className="text-muted-foreground leading-relaxed">
-                {feature.description}
+                <T>{feature.description}</T>
               </p>
             </div>
           ))}

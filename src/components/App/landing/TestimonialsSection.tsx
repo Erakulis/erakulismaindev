@@ -1,4 +1,5 @@
 import { Star } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 export const TestimonialsSection = () => {
   const testimonials = [
