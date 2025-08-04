@@ -1,4 +1,5 @@
 import { Download, Target, Play } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 export const ProcessSection = () => {
   const steps = [
@@ -27,7 +28,7 @@ export const ProcessSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Start Your Fitness Journey in 3 Steps
+            <T>Start Your Fitness Journey in 3 Steps</T>
           </h2>
         </div>
 
@@ -43,11 +44,11 @@ export const ProcessSection = () => {
               <step.icon className="w-12 h-12 text-primary mx-auto mb-4" />
               
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                {step.title}
+                <T>{step.title}</T>
               </h3>
               
               <p className="text-gray-600 leading-relaxed">
-                {step.description}
+                <T>{step.description}</T>
               </p>
             </div>
           ))}

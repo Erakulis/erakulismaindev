@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Instagram, Facebook, Linkedin, Twitter, Youtube, Video } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 const Footer = () => {
   return (
@@ -16,13 +17,13 @@ const Footer = () => {
                 className="h-8 w-auto mb-6 brightness-0 invert"
               />
               <p className="text-slate-300 leading-relaxed">
-                Your Wellness Ecosystem. Eat better, stay active, be mindful.
+                <T>Your Wellness Ecosystem. Eat better, stay active, be mindful.</T>
               </p>
             </div>
             
             {/* App Store Links */}
             <div className="space-y-4">
-              <p className="text-sm font-medium">Download our app</p>
+              <p className="text-sm font-medium"><T>Download our app</T></p>
               <div className="flex gap-3">
                 <a href="https://apps.apple.com/us/app/erakulis/id6473955690" target="_blank" rel="noopener noreferrer">
                   <img src="https://erakulis.com/app-store.svg" alt="App Store" className="h-10" />
@@ -36,21 +37,21 @@ const Footer = () => {
 
           {/* Product Column */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-white">Product</h4>
+            <h4 className="font-semibold text-white"><T>Product</T></h4>
             <ul className="space-y-3">
               <li>
                 <a href="/" className="text-slate-300 hover:text-white transition-colors">
-                  Erakulis App
+                  <T>Erakulis App</T>
                 </a>
               </li>
               <li>
                 <a href="/profissionais" className="text-slate-300 hover:text-white transition-colors">
-                  For Professionals
+                  <T>For Professionals</T>
                 </a>
               </li>
               <li>
                 <a href="/empresas" className="text-slate-300 hover:text-white transition-colors">
-                  For Companies
+                  <T>For Companies</T>
                 </a>
               </li>
             </ul>
@@ -58,21 +59,21 @@ const Footer = () => {
 
           {/* Company Column */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-white">Company</h4>
+            <h4 className="font-semibold text-white"><T>Company</T></h4>
             <ul className="space-y-3">
               <li>
                 <a href="/why-erakulis" className="text-slate-300 hover:text-white transition-colors">
-                  Why Erakulis
+                  <T>Why Erakulis</T>
                 </a>
               </li>
                <li>
                  <a href="https://erakulislda.freshdesk.com/support/home" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors">
-                   Help Center
+                   <T>Help Center</T>
                  </a>
                </li>
                <li>
                  <a href="https://hub.erakulis.com" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors">
-                   Erakulis Hub
+                   <T>Erakulis Hub</T>
                  </a>
                </li>
             </ul>
@@ -80,7 +81,7 @@ const Footer = () => {
 
           {/* Contact Column */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-white">Contact</h4>
+            <h4 className="font-semibold text-white"><T>Contact</T></h4>
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-slate-300">
                 <MapPin className="w-4 h-4" />
@@ -99,7 +100,7 @@ const Footer = () => {
             
             {/* Social Links */}
             <div className="pt-4">
-              <p className="text-sm font-medium mb-3">Follow us</p>
+              <p className="text-sm font-medium mb-3"><T>Follow us</T></p>
               <div className="flex gap-3 flex-wrap">
                 <a href="https://www.instagram.com/erakulis/#" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors">
                   <Instagram className="w-5 h-5" />

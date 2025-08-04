@@ -1,4 +1,5 @@
 import { Activity, Target, TrendingUp, Zap } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 const marqueeItems = [
   { icon: Activity, text: "Start Workout Now" },
@@ -16,7 +17,7 @@ export const MarqueeSection = () => {
           marqueeItems.map((item, index) => (
             <div key={`${setIndex}-${index}`} className="flex items-center gap-3 mx-12 flex-shrink-0">
               <item.icon className="w-6 h-6 text-primary" />
-              <span className="text-lg font-medium text-foreground">{item.text}</span>
+              <span className="text-lg font-medium text-foreground"><T>{item.text}</T></span>
             </div>
           ))
         )}

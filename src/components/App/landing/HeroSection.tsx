@@ -4,6 +4,7 @@ import heroImage from "@/assets/hero-athlete.jpg";
 import appMockup from "@/assets/app-mockup.jpg";
 import cr7Image from "@/assets/cr7-fitness.jpg";
 import { useState } from "react";
+import { T } from "@/hooks/useTranslation";
 
 export const HeroSection = () => {
   const [showQR, setShowQR] = useState(false);
@@ -19,14 +20,13 @@ export const HeroSection = () => {
               {/* Main Headline */}
               <div className="space-y-6">
                 <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-white">
-                  Track{" "}
-                  <span className="text-primary">Fitness</span>, Stay
+                  <T>Track</T>{" "}
+                  <span className="text-primary"><T>Fitness</T></span>, <T>Stay</T>
                   <br />
-                  Motivated
+                  <T>Motivated</T>
                 </h1>
                 <p className="text-xl lg:text-2xl text-white/80 max-w-2xl">
-                  Discover the ultimate app to track workouts, monitor progress, and achieve your fitness 
-                  goals. Stay on top of your health journey today!
+                  <T>Discover the ultimate app to track workouts, monitor progress, and achieve your fitness goals. Stay on top of your health journey today!</T>
                 </p>
               </div>
 
@@ -35,14 +35,14 @@ export const HeroSection = () => {
                 <a href="https://play.google.com/store/apps/details?id=com.erakulis" target="_blank" rel="noopener noreferrer">
                   <Button className="bg-white text-black hover:bg-white/90 h-14 px-6 rounded-full font-medium">
                     <Download className="w-5 h-5 mr-3" />
-                    Download for Android
+                    <T>Download for Android</T>
                   </Button>
                 </a>
                 
                 <a href="https://apps.apple.com/us/app/erakulis/id6473955690" target="_blank" rel="noopener noreferrer">
                   <Button className="bg-white text-black hover:bg-white/90 h-14 px-6 rounded-full font-medium">
                     <Download className="w-5 h-5 mr-3" />
-                    Download for iOS
+                    <T>Download for iOS</T>
                   </Button>
                 </a>
               </div>

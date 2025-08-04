@@ -1,4 +1,5 @@
 import { Download } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 const googlePlayButton = "/assets/images/86fd7106-dd74-44ea-98b1-1ad6d67c95fa.png";
 const appStoreButton = "/assets/images/b214088a-05e2-4b56-baff-bddeefc80c25.png";
@@ -21,8 +22,8 @@ export const MobileInstallBanner = () => {
             />
           </div>
           <div className="flex-1 min-w-0">
-            <h3 className="font-semibold text-sm text-white">Get the App</h3>
-            <p className="text-xs text-white/80 leading-tight">Download for a longer and healthier life.</p>
+            <h3 className="font-semibold text-sm text-white"><T>Get the App</T></h3>
+            <p className="text-xs text-white/80 leading-tight"><T>Download for a longer and healthier life.</T></p>
           </div>
         </div>
         
@@ -33,7 +34,7 @@ export const MobileInstallBanner = () => {
             target="_blank" 
             rel="noopener noreferrer"
           >
-            Download
+            <T>Download</T>
           </a>
         </div>
       </div>

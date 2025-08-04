@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import erakulisLogo from "@/assets/erakulis-logo.png";
+import LanguageSelectorHeader from "@/components/LanguageSelectorHeader";
+import { T } from "@/hooks/useTranslation";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,34 +52,35 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
             <a href="/" className="text-white hover:text-primary transition-smooth text-sm font-medium whitespace-nowrap">
-              The App
+              <T>The App</T>
             </a>
             <a href="/profissionais" className="text-white hover:text-primary transition-smooth text-sm font-medium whitespace-nowrap">
-              I'm a Fitness PRO
+              <T>I'm a Fitness PRO</T>
             </a>
             <a href="/empresas" className="text-white hover:text-primary transition-smooth text-sm font-medium whitespace-nowrap">
-              I'm a Company
+              <T>I'm a Company</T>
             </a>
             <a href="/why-erakulis" className="text-white hover:text-primary transition-smooth text-sm font-medium whitespace-nowrap">
-              Why Erakulis
+              <T>Why Erakulis</T>
             </a>
           </nav>
 
           {/* Desktop CTAs */}
           <div className="hidden md:flex items-center space-x-4">
+            <LanguageSelectorHeader />
             <Button variant="outline" className="hover:bg-primary hover:text-primary-foreground hover:border-primary" asChild>
               <a href="https://hub.erakulis.com" target="_blank" rel="noopener noreferrer">
-                Erakulis Hub
+                <T>Erakulis Hub</T>
               </a>
             </Button>
             <Button variant="ghost" className="text-white hover:bg-primary hover:text-primary-foreground" asChild>
               <a href="https://erakulis.com/en-GB/login" target="_blank" rel="noopener noreferrer">
-                Login
+                <T>Login</T>
               </a>
             </Button>
             <Button variant="corporate" className="shadow-medium" asChild>
               <a href="https://erakulis.com/en-GB/signup" target="_blank" rel="noopener noreferrer">
-                Start Free
+                <T>Start Free</T>
               </a>
             </Button>
           </div>
@@ -100,33 +103,36 @@ const Header = () => {
             style={{ backgroundColor: 'rgba(10, 27, 34, 0.95)' }}
           >
             <nav className="flex flex-col space-y-1">
+              <div className="pb-4">
+                <LanguageSelectorHeader />
+              </div>
               <a 
                 href="/" 
                 className="text-white py-4 px-4 rounded-lg touch-manipulation hover:bg-primary/20 active:bg-primary/30 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                The App
+                <T>The App</T>
               </a>
               <a 
                 href="/profissionais" 
                 className="text-white py-4 px-4 rounded-lg touch-manipulation hover:bg-primary/20 active:bg-primary/30 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                I'm a Fitness PRO
+                <T>I'm a Fitness PRO</T>
               </a>
               <a 
                 href="/empresas" 
                 className="text-white py-4 px-4 rounded-lg touch-manipulation hover:bg-primary/20 active:bg-primary/30 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                I'm a Company
+                <T>I'm a Company</T>
               </a>
               <a 
                 href="/why-erakulis" 
                 className="text-white py-4 px-4 rounded-lg touch-manipulation hover:bg-primary/20 active:bg-primary/30 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Why Erakulis
+                <T>Why Erakulis</T>
               </a>
               <div className="flex flex-col space-y-3 pt-6 border-t border-primary/30 mt-4">
                 <Button 
@@ -135,7 +141,7 @@ const Header = () => {
                   asChild
                 >
                   <a href="https://hub.erakulis.com" target="_blank" rel="noopener noreferrer">
-                    Erakulis Hub
+                    <T>Erakulis Hub</T>
                   </a>
                 </Button>
                 <Button 
@@ -144,7 +150,7 @@ const Header = () => {
                   asChild
                 >
                   <a href="https://erakulis.com/en-GB/login" target="_blank" rel="noopener noreferrer">
-                    Login
+                    <T>Login</T>
                   </a>
                 </Button>
                 <Button 
@@ -153,7 +159,7 @@ const Header = () => {
                   asChild
                 >
                   <a href="https://erakulis.com/en-GB/signup" target="_blank" rel="noopener noreferrer">
-                    Start Free
+                    <T>Start Free</T>
                   </a>
                 </Button>
               </div>

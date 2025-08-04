@@ -1,3 +1,5 @@
+import { T } from "@/hooks/useTranslation";
+
 export const StatsSection = () => {
   const stats = [
     { value: "97%", label: "Client satisfaction" },
@@ -11,11 +13,10 @@ export const StatsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Empowering Your Fitness Journey
+            <T>Empowering Your Fitness Journey</T>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We are passionate about helping individuals reach their fitness goals with the right tools, 
-            motivation, and support. Our app is designed to be your personal fitness companion.
+            <T>We are passionate about helping individuals reach their fitness goals with the right tools, motivation, and support. Our app is designed to be your personal fitness companion.</T>
           </p>
         </div>
 
@@ -26,7 +27,7 @@ export const StatsSection = () => {
                 {stat.value}
               </div>
               <div className="text-gray-600 font-medium">
-                {stat.label}
+                <T>{stat.label}</T>
               </div>
             </div>
           ))}

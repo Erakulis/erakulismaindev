@@ -1,4 +1,5 @@
 import { Check } from "lucide-react";
+import { T } from "@/hooks/useTranslation";
 
 export const InfoSection = () => {
   const benefits = [
@@ -15,11 +16,12 @@ export const InfoSection = () => {
           {/* Left Content */}
           <div className="flex-1">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Track Every Move<br />Effortlessly
+              <T>Track Every Move</T><br />
+              <T>Effortlessly</T>
             </h2>
             
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Stay on top of your fitness routine with precise and seamless activity tracking to keep you motivated and informed.
+              <T>Stay on top of your fitness routine with precise and seamless activity tracking to keep you motivated and informed.</T>
             </p>
             
             <ul className="space-y-4">
@@ -28,7 +30,7 @@ export const InfoSection = () => {
                   <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                     <Check className="w-4 h-4 text-white" />
                   </div>
-                  <span className="text-gray-700 font-medium">{benefit}</span>
+                  <span className="text-gray-700 font-medium"><T>{benefit}</T></span>
                 </li>
               ))}
             </ul>
