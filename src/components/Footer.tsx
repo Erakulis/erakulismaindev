@@ -65,11 +65,16 @@ const Footer = () => {
                   Why Erakulis
                 </a>
               </li>
-              <li>
-                <a href="https://erakulislda.freshdesk.com/support/home" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors">
-                  Help Center
-                </a>
-              </li>
+               <li>
+                 <a href="https://erakulislda.freshdesk.com/support/home" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors">
+                   Help Center
+                 </a>
+               </li>
+               <li>
+                 <a href="https://hub.erakulis.com" target="_blank" rel="noopener noreferrer" className="text-slate-300 hover:text-white transition-colors">
+                   Erakulis Hub
+                 </a>
+               </li>
             </ul>
           </div>
 
