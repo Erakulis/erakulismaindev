@@ -116,7 +116,7 @@ const SmartIntegrationSectionB2B = () => {
                 </div>
               </div>
               
-              <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid md:grid-cols-2 gap-8">
                 {features.map((feature, index) => (
                   <div key={index} className="space-y-2">
                     <h4 className="text-lg font-semibold"><T>{feature.label}</T></h4>

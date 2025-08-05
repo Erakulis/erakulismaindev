@@ -11,7 +11,7 @@ const CompanyHeroSectionB2B = () => {
           <div className="space-y-8">
             <div className="inline-block">
               <span className="text-sm font-medium text-muted-foreground bg-accent/10 px-3 py-1 rounded-full">
-                Erakulis for Companies
+                <T>Erakulis for Companies</T>
               </span>
             </div>
             
@@ -23,13 +23,11 @@ const CompanyHeroSectionB2B = () => {
             </h1>
             
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
-              Traditional wellness programs failed to deliver results. Erakulis' digital wellness solution 
-              delivers lasting impact on people's health and key business KPIs, backed by data & technology, 
-              and a holistic approach.
+              <T>Traditional wellness programs failed to deliver results. Erakulis' digital wellness solution delivers lasting impact on people's health and key business KPIs, backed by data & technology, and a holistic approach.</T>
             </p>
             
             <Button size="lg" className="text-lg px-8 py-6">
-              Schedule Demo
+              <T>Schedule Demo</T>
             </Button>
           </div>
           
@@ -46,7 +44,7 @@ const CompanyHeroSectionB2B = () => {
               <Card className="absolute top-6 left-6 p-4 bg-background/95 backdrop-blur-sm border-none shadow-soft">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary">25%</div>
-                  <div className="text-sm text-muted-foreground">Reduced Absenteeism</div>
+                  <div className="text-sm text-muted-foreground"><T>Reduced Absenteeism</T></div>
                 </div>
               </Card>
               

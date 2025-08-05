@@ -32,41 +32,38 @@ const CristianoSectionB2B = () => {
              </h2>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Step into Cristiano Ronaldo's wellness ecosystem, reimagined for today's corporate teams. 
-              Erakulis has transformed Ronaldo's daily disciplines in training, recovery, nutrition, 
-              and mindset into personalized, data-driven journeys that elevate employee well-being 
-              and fuel business performance.
+              <T>Step into Cristiano Ronaldo's wellness ecosystem, reimagined for today's corporate teams. Erakulis has transformed Ronaldo's daily disciplines in training, recovery, nutrition, and mindset into personalized, data-driven journeys that elevate employee well-being and fuel business performance.</T>
             </p>
             
             <div className="grid gap-6">
               <Card className="p-6">
-                <h3 className="text-xl font-bold mb-3">Performance & Health-Driven Approach</h3>
+                <h3 className="text-xl font-bold mb-3"><T>Performance & Health-Driven Approach</T></h3>
                 <p className="text-muted-foreground">
-                  Solutions designed for longevity and human performance
+                  <T>Solutions designed for longevity and human performance</T>
                 </p>
               </Card>
               
               <Card className="p-6">
-                <h3 className="text-xl font-bold mb-3">Holistic Wellness Philosophy</h3>
+                <h3 className="text-xl font-bold mb-3"><T>Holistic Wellness Philosophy</T></h3>
                 <p className="text-muted-foreground">
-                  Mind, body, and spirit integration
+                  <T>Mind, body, and spirit integration</T>
                 </p>
               </Card>
               
               <Card className="p-6">
-                <h3 className="text-xl font-bold mb-3">Global Impact Vision</h3>
+                <h3 className="text-xl font-bold mb-3"><T>Global Impact Vision</T></h3>
                 <p className="text-muted-foreground">
-                  Transforming wellness worldwide
+                  <T>Transforming wellness worldwide</T>
                 </p>
               </Card>
             </div>
             
             <div className="flex gap-4">
               <Button size="lg" className="text-lg px-8 py-6">
-                Find the Formula
+                <T>Find the Formula</T>
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                Erakulis Formula
+                <T>Erakulis Formula</T>
               </Button>
             </div>
           </div>
@@ -75,10 +72,9 @@ const CristianoSectionB2B = () => {
           <div className="relative">
             <Card className="p-12 text-center bg-gradient-card">
               <div className="text-8xl mb-6">⚽</div>
-              <h3 className="text-3xl font-bold mb-6">CR7 Wellness Ecosystem</h3>
+              <h3 className="text-3xl font-bold mb-6"><T>CR7 Wellness Ecosystem</T></h3>
               <p className="text-lg text-muted-foreground">
-                Transform your corporate wellness with the same discipline and excellence 
-                that made Cristiano Ronaldo a global icon.
+                <T>Transform your corporate wellness with the same discipline and excellence that made Cristiano Ronaldo a global icon.</T>
               </p>
             </Card>
           </div>

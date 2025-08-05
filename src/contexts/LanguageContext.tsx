@@ -327,6 +327,19 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           
           // Smart Integration Section
           'Smart Wellness Integration': 'Integração Inteligente de Bem-estar',
+          
+          // Company Hero Section B2B
+          'Step into Cristiano Ronaldo\'s wellness ecosystem, reimagined for today\'s corporate teams. Erakulis has transformed Ronaldo\'s daily disciplines in training, recovery, nutrition, and mindset into personalized, data-driven journeys that elevate employee well-being and fuel business performance.': 'Entre no ecossistema de bem-estar do Cristiano Ronaldo, reimaginado para as equipas corporativas de hoje. A Erakulis transformou as disciplinas diárias do Ronaldo em treino, recuperação, nutrição e mentalidade em jornadas personalizadas e baseadas em dados que elevam o bem-estar dos funcionários e impulsionam o desempenho empresarial.',
+          'Performance & Health-Driven Approach': 'Abordagem Orientada para Performance e Saúde',
+          'Solutions designed for longevity and human performance': 'Soluções desenhadas para longevidade e performance humana',
+          'Holistic Wellness Philosophy': 'Filosofia de Bem-estar Holística',
+          'Mind, body, and spirit integration': 'Integração de mente, corpo e espírito',
+          'Global Impact Vision': 'Visão de Impacto Global',
+          'Transforming wellness worldwide': 'Transformando o bem-estar mundialmente',
+          'Find the Formula': 'Descubra a Fórmula',
+          'Erakulis Formula': 'Fórmula Erakulis',
+          'CR7 Wellness Ecosystem': 'Ecossistema de Bem-estar CR7',
+          'Transform your corporate wellness with the same discipline and excellence that made Cristiano Ronaldo a global icon.': 'Transforme o bem-estar corporativo da sua empresa com a mesma disciplina e excelência que fizeram do Cristiano Ronaldo um ícone global.',
           'Where professional expertise meets user-friendly wellness. Discover how our seamlessly integrated ecosystem creates lasting impact.': 'Onde a expertise profissional encontra o bem-estar amigável ao usuário. Descubra como o nosso ecossistema perfeitamente integrado cria impacto duradouro.',
           'Erakulis PRO': 'Erakulis PRO',
           'Erakulis Mobile': 'Erakulis Mobile',
