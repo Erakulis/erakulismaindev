@@ -752,7 +752,7 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
               </div>
               <div className="absolute -top-6 -right-6 bg-white p-4 rounded-lg shadow-lg border">
                 <div className="text-2xl font-bold text-primary">3-6x</div>
-                <div className="text-sm text-muted-foreground">ROI</div>
+                <div className="text-sm text-muted-foreground"><T>ROI</T></div>
               </div>
             </div>
           </div>
