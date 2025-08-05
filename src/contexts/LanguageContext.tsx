@@ -404,26 +404,6 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           // Wellness Suite Section
           'Your Complete Wellness Suite': 'O Seu Pacote Completo de Bem-estar',
           'Erakulis gives you all the tools your business needs to reduce costs, mitigate risks, and maximize organizational performance.': 'A Erakulis oferece todas as ferramentas que o seu negócio precisa para reduzir custos, mitigar riscos e maximizar o desempenho organizacional.',
-          'Real-Time Analytics': 'Análises em Tempo Real',
-          'Health-Monitor Dashboard provides visibility into stress-score reductions, engagement rates, and overall Erakulis Impact Index.': 'O Painel Health-Monitor oferece visibilidade sobre reduções de stress, taxas de envolvimento e o Índice de Impacto Erakulis geral.',
-          'Data-Driven Insights': 'Insights Baseados em Dados',
-          '400+ Integrations': '400+ Integrações',
-          'Seamless integration with wearables and health apps ensures high adoption and continuous engagement.': 'A integração perfeita com wearables e aplicações de saúde garante alta adoção e envolvimento contínuo.',
-          'Universal Compatibility': 'Compatibilidade Universal',
-          'Personalized Journey': 'Jornada Personalizada',
-          'AI-driven meal and workout plans plus rich multimedia mental-wellness content.': 'Planos de refeições e treinos orientados por IA, além de conteúdo multimédia rico de bem-estar mental.',
-          'AI-Powered': 'Impulsionado por IA',
-          'Dedicated Wellness App': 'Aplicação Dedicada de Bem-estar',
-          'Complete mobile application for wellness tracking, goal setting, and progress monitoring.': 'Aplicação móvel completa para rastreamento de bem-estar, definição de objetivos e monitorização de progresso.',
-          'Online Appointments': 'Consultas Online',
-          'Direct access to certified wellness experts for fitness and nutrition consultations.': 'Acesso direto a especialistas certificados em bem-estar para consultas de fitness e nutrição.',
-          'Expert Support': 'Suporte Especializado',
-          'Exclusive Perks': 'Vantagens Exclusivas',
-          'Access to exclusive benefits from ERAKULIS network of wellness and lifestyle partners.': 'Acesso a benefícios exclusivos da rede de parceiros de bem-estar e estilo de vida da ERAKULIS.',
-          'Premium Network': 'Rede Premium',
-          'Dedicated Engagement Program': 'Programa de Envolvimento Dedicado',
-          'Customized engagement strategies to maximize participation and maintain long-term wellness habits.': 'Estratégias de envolvimento personalizadas para maximizar a participação e manter hábitos de bem-estar a longo prazo.',
-           'Long-term Success': 'Sucesso a Longo Prazo',
            
            // Pricing Model Section
            // Benefits Section - Your Complete Wellness Suite
