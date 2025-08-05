@@ -155,7 +155,7 @@ const ROISimulator = () => {
             <CardContent className="space-y-4">
               <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
                 <div>
-                  <div className="font-medium">Reduced Absenteeism</div>
+                  <div className="font-medium"><T>Reduced Absenteeism</T></div>
                   <div className="text-sm text-muted-foreground">35% reduction</div>
                 </div>
                 <div className="text-blue-600 font-semibold">${absenteeismSavings.toLocaleString()}</div>
@@ -748,7 +748,7 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
               {/* Floating stats cards */}
               <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg border">
                 <div className="text-2xl font-bold text-primary">25%</div>
-                <div className="text-sm text-muted-foreground">Reduced Absenteeism</div>
+                <div className="text-sm text-muted-foreground"><T>Reduced Absenteeism</T></div>
               </div>
               <div className="absolute -top-6 -right-6 bg-white p-4 rounded-lg shadow-lg border">
                 <div className="text-2xl font-bold text-primary">3-6x</div>
