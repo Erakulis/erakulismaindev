@@ -512,7 +512,6 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Clients': 'Clientes',
           'Ready to Scale Your Business?': 'Pronto para Escalar o Seu Negócio?',
           'Schedule a discovery call to learn how Erakulis PRO can transform your fitness business': 'Agende uma chamada de descoberta para saber como o Erakulis PRO pode transformar o seu negócio de fitness',
-           'Schedule Discovery Call': 'Agendar Chamada de Descoberta',
           'Curated Wellness Programs': 'Programas de Bem-estar Curados por Humanos',
           'Expert wellness design and adapt corporate programs': 'Especialistas experientes em bem-estar desenham e adaptam programas corporativos baseados nas necessidades específicas e objetivos de saúde da sua equipe.',
           'Expert Consultations': 'Consultas ao Vivo com Especialistas',
