@@ -1480,9 +1480,9 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
       <section className="py-20 bg-gradient-to-br from-primary/10 via-background to-secondary/10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Our Model</h2>
+            <h2 className="text-4xl font-bold mb-6"><T>Our Model</T></h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Performance-based pricing that ensures you only pay when we deliver measurable results.
+              <T>Performance-based pricing that ensures you only pay when we deliver measurable results.</T>
             </p>
           </div>
           
@@ -1494,15 +1494,14 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-6xl font-bold text-muted-foreground/30">01</span>
                 </div>
-                <CardTitle className="text-2xl mb-2">Base Fee</CardTitle>
+                <CardTitle className="text-2xl mb-2"><T>Base Fee</T></CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground leading-relaxed">
-                  Covers platform access, onboarding, technical support, and reporting tools. 
-                  Ensures foundational delivery and full operational readiness from day one.
+                  <T>Covers platform access, onboarding, technical support, and reporting tools. Ensures foundational delivery and full operational readiness from day one.</T>
                 </p>
                 <Button className="w-full mt-6" variant="outline" onClick={() => window.open('https://calendar.app.google/XknyK8tYZCsQiC4Q8', '_blank')}>
-                  Get Started
+                  <T>Get Started</T>
                 </Button>
               </CardContent>
             </Card>
@@ -1511,21 +1510,20 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
             <Card className="relative overflow-hidden border-2 border-primary hover:shadow-xl transition-all duration-300 scale-105">
               <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-primary to-secondary"></div>
               <div className="absolute top-4 right-4">
-                <Badge className="bg-primary text-primary-foreground">Pay on Results</Badge>
+                <Badge className="bg-primary text-primary-foreground"><T>Pay on Results</T></Badge>
               </div>
               <CardHeader className="pb-4">
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-6xl font-bold text-muted-foreground/30">02</span>
                 </div>
-                <CardTitle className="text-2xl mb-2">Success Fee</CardTitle>
+                <CardTitle className="text-2xl mb-2"><T>Success Fee</T></CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground leading-relaxed">
-                  Only applied when pre-defined KPIs are met. You pay only when we deliver 
-                  measurable health and productivity impact.
+                  <T>Only applied when pre-defined KPIs are met. You pay only when we deliver measurable health and productivity impact.</T>
                 </p>
                 <Button className="w-full mt-6" onClick={() => window.open('https://calendar.app.google/XknyK8tYZCsQiC4Q8', '_blank')}>
-                  Schedule Demo
+                  <T>Schedule Demo</T>
                 </Button>
               </CardContent>
             </Card>
@@ -1537,15 +1535,14 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-6xl font-bold text-muted-foreground/30">03</span>
                 </div>
-                <CardTitle className="text-2xl mb-2">Scale on Success</CardTitle>
+                <CardTitle className="text-2xl mb-2"><T>Scale on Success</T></CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground leading-relaxed">
-                  Once impact is proven we progressively expand the program, reaching a broader 
-                  user base with confidence and cost-efficiency, backed by results.
+                  <T>Once impact is proven we progressively expand the program, reaching a broader user base with confidence and cost-efficiency, backed by results.</T>
                 </p>
                 <Button className="w-full mt-6" variant="outline" onClick={() => window.open('https://calendar.app.google/XknyK8tYZCsQiC4Q8', '_blank')}>
-                  Learn More
+                  <T>Learn More</T>
                 </Button>
               </CardContent>
             </Card>

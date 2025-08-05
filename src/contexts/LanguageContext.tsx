@@ -292,7 +292,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           // Company Hero Section
           'Erakulis for Companies': 'Erakulis para Empresas',
           'Traditional wellness programs failed to deliver results. Erakulis\' digital wellness solution delivers lasting impact on people\'s health and key business KPIs, backed by data & technology, and a holistic approach.': 'Os programas de bem-estar tradicionais falharam em entregar resultados. A solução digital de bem-estar da Erakulis oferece impacto duradouro na saúde das pessoas e KPIs empresariais chave, suportada por dados & tecnologia, e uma abordagem holística.',
-          'Schedule Demo': 'Agendar Demo',
+           'Only applied when pre-defined KPIs are met. You pay only when we deliver measurable health and productivity impact.': 'Aplicada apenas quando KPIs pré-definidos são atingidos. Você paga apenas quando entregamos impacto mensurável na saúde e produtividade.',
            'Reduced Absenteeism': 'Absenteísmo Reduzido',
            
            // Key Features section
@@ -338,6 +338,18 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
            'Ready to Transform Your Wellness?': 'Pronto para Transformar o Seu Bem-estar?',
            'Schedule a discovery call to learn how Erakulis Mobile can revolutionize your health journey': 'Agende uma chamada de descoberta para saber como o Erakulis Mobile pode revolucionar a sua jornada de saúde',
            'Schedule Discovery Call': 'Agendar Chamada de Descoberta',
+           
+           // Pricing/Model Section
+           'Our Model': 'Nosso Modelo',
+           'Performance-based pricing that ensures you only pay when we deliver measurable results.': 'Preços baseados em performance que garantem que você só paga quando entregamos resultados mensuráveis.',
+           'Base Fee': 'Taxa Base',
+           'Covers platform access, onboarding, technical support, and reporting tools. Ensures foundational delivery and full operational readiness from day one.': 'Cobre acesso à plataforma, integração, suporte técnico e ferramentas de relatório. Garante entrega fundamental e prontidão operacional completa desde o primeiro dia.',
+           'Pay on Results': 'Pagar por Resultados',
+           'Success Fee': 'Taxa de Sucesso',
+           'Only applied when pre-defined KPIs are met. You pay only when we deliver measurable health and productivity impact.': 'Aplicada apenas quando KPIs pré-definidos são atingidos. Você paga apenas quando entregamos impacto mensurável na saúde e produtividade.',
+           'Scale on Success': 'Escalar no Sucesso',
+           'Once impact is proven we progressively expand the program, reaching a broader user base with confidence and cost-efficiency, backed by results.': 'Uma vez que o impacto é comprovado, expandimos progressivamente o programa, alcançando uma base de usuários mais ampla com confiança e eficiência de custos, apoiado por resultados.',
+           'Learn More': 'Saber Mais',
            
            // Wellness Platform Section
           'Erakulis is the only digital wellness solution that integrates physical activity, mental, nutrition, stress and sleep in one single experience.': 'A Erakulis é a única solução digital de bem-estar que integra atividade física, mental, nutrição, stress e sono numa única experiência.',
