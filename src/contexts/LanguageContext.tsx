@@ -323,6 +323,11 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
            'Workouts Done': 'Treinos Realizados',
            'Success Rate': 'Taxa de Sucesso',
            
+           // ROI Simulator translations
+           'Healthcare Cost Reduction': 'Redução de Custos de Saúde',
+           'Productivity Gains': 'Ganhos de Produtividade',
+           'Reduced Turnover': 'Redução de Rotatividade',
+           
            // Wellness Platform Section
           'Erakulis is the only digital wellness solution that integrates physical activity, mental, nutrition, stress and sleep in one single experience.': 'A Erakulis é a única solução digital de bem-estar que integra atividade física, mental, nutrição, stress e sono numa única experiência.',
           'Physical Activity': 'Atividade Física',

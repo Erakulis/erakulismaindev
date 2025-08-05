@@ -163,7 +163,7 @@ const ROISimulator = () => {
               
               <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
                 <div>
-                  <div className="font-medium">Healthcare Cost Reduction</div>
+                  <div className="font-medium"><T>Healthcare Cost Reduction</T></div>
                   <div className="text-sm text-muted-foreground">25% reduction</div>
                 </div>
                 <div className="text-green-600 font-semibold">${healthcareSavings.toLocaleString()}</div>
@@ -171,7 +171,7 @@ const ROISimulator = () => {
               
               <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg">
                 <div>
-                  <div className="font-medium">Productivity Gains</div>
+                  <div className="font-medium"><T>Productivity Gains</T></div>
                   <div className="text-sm text-muted-foreground">15% increase</div>
                 </div>
                 <div className="text-purple-600 font-semibold">${(productivityGains * 12).toLocaleString()}</div>
@@ -179,7 +179,7 @@ const ROISimulator = () => {
               
               <div className="flex justify-between items-center p-3 bg-orange-50 rounded-lg">
                 <div>
-                  <div className="font-medium">Reduced Turnover</div>
+                  <div className="font-medium"><T>Reduced Turnover</T></div>
                   <div className="text-sm text-muted-foreground">20% reduction</div>
                 </div>
                 <div className="text-orange-600 font-semibold">${turnoverSavings.toLocaleString()}</div>
@@ -304,11 +304,11 @@ const WhatErakulisAddsToggle = () => {
               </div>
               
               <h3 className="text-3xl font-bold text-foreground mb-4 hover:text-primary transition-colors">
-                {currentFeatures[0].title}
+                <T>{currentFeatures[0].title}</T>
               </h3>
               
               <p className="text-muted-foreground leading-relaxed text-lg flex-1">
-                {currentFeatures[0].description}
+                <T>{currentFeatures[0].description}</T>
               </p>
 
               {/* Badge */}
@@ -334,11 +334,11 @@ const WhatErakulisAddsToggle = () => {
               </div>
               
               <h3 className="text-2xl font-bold text-foreground mb-3 hover:text-primary transition-colors">
-                {currentFeatures[1].title}
+                <T>{currentFeatures[1].title}</T>
               </h3>
               
               <p className="text-muted-foreground leading-relaxed flex-1">
-                {currentFeatures[1].description}
+                <T>{currentFeatures[1].description}</T>
               </p>
 
               {/* Badge */}
@@ -364,11 +364,11 @@ const WhatErakulisAddsToggle = () => {
               </div>
               
               <h3 className="text-xl font-bold text-foreground mb-2 hover:text-primary transition-colors">
-                {currentFeatures[2].title}
+                <T>{currentFeatures[2].title}</T>
               </h3>
               
               <p className="text-muted-foreground text-sm leading-relaxed flex-1">
-                {currentFeatures[2].description}
+                <T>{currentFeatures[2].description}</T>
               </p>
 
               <div className="mt-3 text-xs text-muted-foreground">
@@ -391,11 +391,11 @@ const WhatErakulisAddsToggle = () => {
               </div>
               
               <h3 className="text-xl font-bold text-foreground mb-2 hover:text-primary transition-colors">
-                {currentFeatures[3].title}
+                <T>{currentFeatures[3].title}</T>
               </h3>
               
               <p className="text-muted-foreground text-sm leading-relaxed flex-1">
-                {currentFeatures[3].description}
+                <T>{currentFeatures[3].description}</T>
               </p>
 
               {/* Progress bar for this feature */}
@@ -426,11 +426,11 @@ const WhatErakulisAddsToggle = () => {
               </div>
               
               <h3 className="text-2xl font-bold text-foreground mb-3 hover:text-primary transition-colors">
-                {currentFeatures[4].title}
+                <T>{currentFeatures[4].title}</T>
               </h3>
               
               <p className="text-muted-foreground leading-relaxed flex-1">
-                {currentFeatures[4].description}
+                <T>{currentFeatures[4].description}</T>
               </p>
 
               {/* Badge */}
@@ -456,11 +456,11 @@ const WhatErakulisAddsToggle = () => {
               </div>
               
               <h3 className="text-2xl font-bold text-foreground mb-3 hover:text-primary transition-colors">
-                {currentFeatures[5].title}
+                <T>{currentFeatures[5].title}</T>
               </h3>
               
               <p className="text-muted-foreground leading-relaxed flex-1">
-                {currentFeatures[5].description}
+                <T>{currentFeatures[5].description}</T>
               </p>
 
               {/* Special indicator for the last feature */}
