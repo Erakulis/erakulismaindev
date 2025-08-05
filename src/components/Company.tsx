@@ -1289,9 +1289,9 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
       <section id="benefits" className="py-20 bg-secondary/5">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Your Complete Wellness Suite</h2>
+            <h2 className="text-4xl font-bold mb-4"><T>Your Complete Wellness Suite</T></h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Erakulis gives you all the tools your business needs to reduce costs, mitigate risks, and maximize organizational performance.
+              <T>Erakulis gives you all the tools your business needs to reduce costs, mitigate risks, and maximize organizational performance.</T>
             </p>
           </div>
 
@@ -1307,17 +1307,17 @@ Traditional wellness programs failed to deliver results. Erakulis’ digital wel
                   </div>
                   
                   <h3 className="text-3xl font-bold text-foreground mb-4 hover:text-primary transition-colors">
-                    Real-Time Analytics
+                    <T>Real-Time Analytics</T>
                   </h3>
                   
                   <p className="text-muted-foreground leading-relaxed text-lg flex-1">
-                    Health-Monitor Dashboard provides visibility into stress-score reductions, engagement rates, and overall Erakulis Impact Index.
+                    <T>Health-Monitor Dashboard provides visibility into stress-score reductions, engagement rates, and overall Erakulis Impact Index.</T>
                   </p>
 
                   {/* Badge */}
                   <div className="mt-6">
                     <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-700 border border-blue-200">
-                      Data-Driven Insights
+                      <T>Data-Driven Insights</T>
                     </div>
                   </div>
                 </div>
