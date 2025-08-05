@@ -328,6 +328,12 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
            'Productivity Gains': 'Ganhos de Produtividade',
            'Reduced Turnover': 'Redução de Rotatividade',
            
+           // Percentages and reductions
+           '35% reduction': '35% redução',
+           '25% reduction': '25% redução', 
+           '15% increase': '15% aumento',
+           '20% reduction': '20% redução',
+           
            // Wellness Platform Section
           'Erakulis is the only digital wellness solution that integrates physical activity, mental, nutrition, stress and sleep in one single experience.': 'A Erakulis é a única solução digital de bem-estar que integra atividade física, mental, nutrição, stress e sono numa única experiência.',
           'Physical Activity': 'Atividade Física',

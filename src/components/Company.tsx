@@ -156,7 +156,7 @@ const ROISimulator = () => {
               <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
                 <div>
                   <div className="font-medium"><T>Reduced Absenteeism</T></div>
-                  <div className="text-sm text-muted-foreground">35% reduction</div>
+                  <div className="text-sm text-muted-foreground"><T>35% reduction</T></div>
                 </div>
                 <div className="text-blue-600 font-semibold">${absenteeismSavings.toLocaleString()}</div>
               </div>
@@ -164,7 +164,7 @@ const ROISimulator = () => {
               <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
                 <div>
                   <div className="font-medium"><T>Healthcare Cost Reduction</T></div>
-                  <div className="text-sm text-muted-foreground">25% reduction</div>
+                  <div className="text-sm text-muted-foreground"><T>25% reduction</T></div>
                 </div>
                 <div className="text-green-600 font-semibold">${healthcareSavings.toLocaleString()}</div>
               </div>
@@ -172,7 +172,7 @@ const ROISimulator = () => {
               <div className="flex justify-between items-center p-3 bg-purple-50 rounded-lg">
                 <div>
                   <div className="font-medium"><T>Productivity Gains</T></div>
-                  <div className="text-sm text-muted-foreground">15% increase</div>
+                  <div className="text-sm text-muted-foreground"><T>15% increase</T></div>
                 </div>
                 <div className="text-purple-600 font-semibold">${(productivityGains * 12).toLocaleString()}</div>
               </div>
@@ -180,7 +180,7 @@ const ROISimulator = () => {
               <div className="flex justify-between items-center p-3 bg-orange-50 rounded-lg">
                 <div>
                   <div className="font-medium"><T>Reduced Turnover</T></div>
-                  <div className="text-sm text-muted-foreground">20% reduction</div>
+                  <div className="text-sm text-muted-foreground"><T>20% reduction</T></div>
                 </div>
                 <div className="text-orange-600 font-semibold">${turnoverSavings.toLocaleString()}</div>
               </div>
