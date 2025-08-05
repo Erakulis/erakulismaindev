@@ -293,9 +293,37 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Erakulis for Companies': 'Erakulis para Empresas',
           'Traditional wellness programs failed to deliver results. Erakulis\' digital wellness solution delivers lasting impact on people\'s health and key business KPIs, backed by data & technology, and a holistic approach.': 'Os programas de bem-estar tradicionais falharam em entregar resultados. A solução digital de bem-estar da Erakulis oferece impacto duradouro na saúde das pessoas e KPIs empresariais chave, suportada por dados & tecnologia, e uma abordagem holística.',
           'Schedule Demo': 'Agendar Demo',
-          'Reduced Absenteeism': 'Absenteísmo Reduzido',
-          
-          // Wellness Platform Section
+           'Reduced Absenteeism': 'Absenteísmo Reduzido',
+           
+           // Key Features section
+           'Key Features': 'Características Principais',
+           'Everything you need to succeed': 'Tudo o que precisa para ter sucesso',
+           'Enterprise Ready': 'Pronto para Empresas',
+           'Consumer Friendly': 'Amigável ao Consumidor',
+           'HIPAA Compliant': 'Compatível com HIPAA',
+           'Cross Platform': 'Multiplataforma',
+           
+           // Professional services features
+           'Certified Wellness Coaches': 'Treinadores de Bem-estar Certificados',
+           'Access to licensed nutritionists, fitness experts, and mental health professionals providing personalized guidance for your workforce.': 'Acesso a nutricionistas licenciados, especialistas em fitness e profissionais de saúde mental que fornecem orientação personalizada para a sua força de trabalho.',
+           'Expert-Driven Health Assessments': 'Avaliações de Saúde Orientadas por Especialistas',
+           'Human professionals analyze employee wellness data to provide personalized recommendations and intervention strategies.': 'Profissionais humanos analisam dados de bem-estar dos funcionários para fornecer recomendações personalizadas e estratégias de intervenção.',
+           'Human-Curated Wellness Programs': 'Programas de Bem-estar Curados por Humanos',
+           'Experienced wellness experts design and adapt corporate programs based on your team\'s specific needs and health goals.': 'Especialistas em bem-estar experientes projetam e adaptam programas corporativos baseados nas necessidades específicas da sua equipe e objetivos de saúde.',
+           'Live Expert Consultations': 'Consultas ao Vivo com Especialistas',
+           'Scheduled one-on-one sessions with certified professionals for nutrition counseling, fitness coaching, and mental wellness support.': 'Sessões individuais agendadas com profissionais certificados para aconselhamento nutricional, treino de fitness e apoio ao bem-estar mental.',
+           'Dedicated Wellness Specialists': 'Especialistas em Bem-estar Dedicados',
+           'Assigned human wellness coordinators who understand your company culture and employee needs for optimal program success.': 'Coordenadores de bem-estar humanos atribuídos que compreendem a cultura da sua empresa e as necessidades dos funcionários para o sucesso ideal do programa.',
+           'Professional Health Oversight': 'Supervisão Profissional de Saúde',
+           'Medical professionals and certified wellness experts ensure all programs meet safety standards and health regulations.': 'Profissionais médicos e especialistas em bem-estar certificados garantem que todos os programas atendam aos padrões de segurança e regulamentações de saúde.',
+           
+           // Stats section
+           'Active Users': 'Usuários Ativos',
+           'Clients Managed': 'Clientes Gerenciados',
+           'Workouts Done': 'Treinos Realizados',
+           'Success Rate': 'Taxa de Sucesso',
+           
+           // Wellness Platform Section
           'Erakulis is the only digital wellness solution that integrates physical activity, mental, nutrition, stress and sleep in one single experience.': 'A Erakulis é a única solução digital de bem-estar que integra atividade física, mental, nutrição, stress e sono numa única experiência.',
           'Physical Activity': 'Atividade Física',
           'Personalized fitness routines that adapt to your schedule and preferences, keeping you moving towards your goals.': 'Rotinas de fitness personalizadas que se adaptam ao seu horário e preferências, mantendo-o em movimento em direção aos seus objetivos.',
@@ -350,10 +378,9 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Premium Network': 'Rede Premium',
           'Dedicated Engagement Program': 'Programa de Envolvimento Dedicado',
           'Customized engagement strategies to maximize participation and maintain long-term wellness habits.': 'Estratégias de envolvimento personalizadas para maximizar a participação e manter hábitos de bem-estar a longo prazo.',
-          'Long-term Success': 'Sucesso a Longo Prazo',
-          'Success Rate': 'Taxa de Sucesso',
-          
-          // Pricing Model Section  
+           'Long-term Success': 'Sucesso a Longo Prazo',
+           
+           // Pricing Model Section
           'Our Model': 'O Nosso Modelo',
           'Performance-based pricing that ensures you only pay when we deliver measurable results.': 'Preços baseados em performance que garantem que só paga quando entregamos resultados mensuráveis.',
           'Base Fee': 'Taxa Base',
@@ -449,15 +476,7 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Lower premiums': 'Prémios mais baixos',
           'Optimize Insurance Solutions': 'Otimizar Soluções de Seguros',
           
-          // Smart Integration Section - Additional translations
-          'Dedicated Wellness Specialists': 'Especialistas Dedicados em Bem-estar',
-          'Assigned human wellness coordinators who understand your company culture and employee needs for optimal program success.': 'Coordenadores humanos de bem-estar designados que compreendem a cultura da sua empresa e as necessidades dos funcionários para o sucesso ideal do programa.',
-          'Professional Health Oversight': 'Supervisão Profissional de Saúde',
-          'Medical professionals and certified wellness experts ensure all programs meet safety standards and health regulations.': 'Profissionais médicos e especialistas certificados em bem-estar garantem que todos os programas atendem aos padrões de segurança e regulamentações de saúde.',
-          'Live Expert Consultations': 'Consultas de Especialistas ao Vivo',
-          'Scheduled one-on-one sessions with certified professionals for nutrition counseling, fitness coaching, and mental wellness support.': 'Sessões individuais agendadas com profissionais certificados para aconselhamento nutricional, coaching de fitness e apoio ao bem-estar mental.',
-          'Human-Curated Wellness Programs': 'Programas de Bem-estar Curados por Humanos',
-          'Experienced wellness experts design and adapt corporate programs based on your team\'s specific needs and health goals.': 'Especialistas experientes em bem-estar desenham e adaptam programas corporativos baseados nas necessidades específicas da sua equipa e objetivos de saúde.',
+           // Smart Integration Section - Additional translations
           // Company Hero Section B2B
           'Step into Cristiano Ronaldo\'s wellness ecosystem, reimagined for today\'s corporate teams. Erakulis has transformed Ronaldo\'s daily disciplines in training, recovery, nutrition, and mindset into personalized, data-driven journeys that elevate employee well-being and fuel business performance.': 'Entre no ecossistema de bem-estar do Cristiano Ronaldo, reimaginado para as equipas corporativas de hoje. A Erakulis transformou as disciplinas diárias do Ronaldo em treino, recuperação, nutrição e mentalidade em jornadas personalizadas e baseadas em dados que elevam o bem-estar dos funcionários e impulsionam o desempenho empresarial.',
           'Performance & Health-Driven Approach': 'Abordagem Orientada para Performance e Saúde',
@@ -477,25 +496,16 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
           'Clients': 'Clientes',
           'Ready to Scale Your Business?': 'Pronto para Escalar o Seu Negócio?',
           'Schedule a discovery call to learn how Erakulis PRO can transform your fitness business': 'Agende uma chamada de descoberta para saber como o Erakulis PRO pode transformar o seu negócio de fitness',
-          'Schedule Discovery Call': 'Agendar Chamada de Descoberta',
-          'Key Features': 'Funcionalidades Principais',
-          'Everything you need to succeed': 'Tudo o que precisa para ter sucesso',
-          'Enterprise Ready': 'Pronto para Empresas',
-          'HIPAA Compliant': 'Conforme HIPAA',
-          'Certified Wellness Coaches': 'Coaches de Bem-estar Certificados',
-          'Access to licensed nutritionists, fitness experts, and mental health professionals providing personalized guidance for your workforce.': 'Acesso a nutricionistas licenciados, especialistas em fitness e profissionais de saúde mental fornecendo orientação personalizada para a sua força de trabalho.',
-          'Expert-Driven Health Assessments': 'Avaliações de Saúde Orientadas por Especialistas',
-          'Human professionals analyze employee wellness data to provide personalized recommendations and intervention strategies.': 'Profissionais humanos analisam dados de bem-estar dos funcionários para fornecer recomendações personalizadas e estratégias de intervenção.',
+           'Schedule Discovery Call': 'Agendar Chamada de Descoberta',
           'Curated Wellness Programs': 'Programas de Bem-estar Curados por Humanos',
           'Expert wellness design and adapt corporate programs': 'Especialistas experientes em bem-estar desenham e adaptam programas corporativos baseados nas necessidades específicas e objetivos de saúde da sua equipe.',
           'Expert Consultations': 'Consultas ao Vivo com Especialistas',
           'Scheduled sessions with certified professionals': 'Sessões individuais agendadas com profissionais certificados para aconselhamento nutricional, coaching de fitness e suporte de bem-estar mental.',
           'Wellness Specialists': 'Especialistas em Bem-estar Dedicados',
           'Human wellness coordinators for company culture': 'Coordenadores de bem-estar humanos designados que compreendem a cultura da sua empresa e necessidades dos funcionários para sucesso ótimo do programa.',
-          'Health Oversight': 'Supervisão Profissional de Saúde',
-          'Medical professionals ensure safety standards': 'Profissionais médicos e especialistas certificados em bem-estar garantem que todos os programas atendam padrões de segurança e regulamentações de saúde.',
-          'Clients Managed': 'Clientes Gerenciados',
-          'Explore PRO Platform': 'Explorar Plataforma PRO',
+           'Health Oversight': 'Supervisão Profissional de Saúde',
+           'Medical professionals ensure safety standards': 'Profissionais médicos e especialistas certificados em bem-estar garantem que todos os programas atendam padrões de segurança e regulamentações de saúde.',
+           'Explore PRO Platform': 'Explorar Plataforma PRO',
           'Erakulis Mobile Experience': 'Experiência Móvel Erakulis',
           'Seamless mobile wellness experience that puts comprehensive health management right in your employees\' hands.': 'Experiência móvel de bem-estar perfeita que coloca o gerenciamento abrangente de saúde diretamente nas mãos dos seus funcionários.',
           'Why Erakulis Page Mobile Experience': 'Experiência Móvel de Bem-estar perfeita que coloca o gerenciamento abrangente de saúde diretamente nas mãos dos seus funcionários.',

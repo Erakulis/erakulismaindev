@@ -647,18 +647,18 @@ const EcosystemDesignOption1 = ({
                 {selectedProduct === 'pro' ? <Briefcase className={`h-8 w-8 ${selectedProduct === 'pro' ? 'text-blue-600' : 'text-green-600'}`} /> : <Smartphone className={`h-8 w-8 ${selectedProduct === 'pro' ? 'text-blue-600' : 'text-green-600'}`} />}
               </div>
               <div>
-                <h4 className="text-xl font-bold text-foreground">Key Features</h4>
-                <p className="text-sm text-muted-foreground">Everything you need to succeed</p>
+                <h4 className="text-xl font-bold text-foreground"><T>Key Features</T></h4>
+                <p className="text-sm text-muted-foreground"><T>Everything you need to succeed</T></p>
               </div>
             </div>
             
             {/* Info Badges */}
             <div className="flex flex-col space-y-2">
               <Badge variant="secondary" className={`${selectedProduct === 'pro' ? 'bg-blue-100 text-blue-700' : 'bg-green-100 text-green-700'} text-xs`}>
-                {selectedProduct === 'pro' ? 'Enterprise Ready' : 'Consumer Friendly'}
+                <T>{selectedProduct === 'pro' ? 'Enterprise Ready' : 'Consumer Friendly'}</T>
               </Badge>
               <Badge variant="outline" className="text-xs">
-                {selectedProduct === 'pro' ? 'HIPAA Compliant' : 'Cross Platform'}
+                <T>{selectedProduct === 'pro' ? 'HIPAA Compliant' : 'Cross Platform'}</T>
               </Badge>
             </div>
           </div>
@@ -670,8 +670,8 @@ const EcosystemDesignOption1 = ({
                   {feature.icon}
                 </div>
                 <div className="flex-1">
-                  <h5 className="font-semibold text-foreground mb-1">{feature.title}</h5>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{feature.description}</p>
+                  <h5 className="font-semibold text-foreground mb-1"><T>{feature.title}</T></h5>
+                  <p className="text-sm text-muted-foreground leading-relaxed"><T>{feature.description}</T></p>
                 </div>
               </div>)}
           </div>
@@ -681,15 +681,15 @@ const EcosystemDesignOption1 = ({
             <div className="grid grid-cols-3 gap-4 text-center">
               <div>
                 <div className="text-2xl font-bold text-primary">{selectedProduct === 'pro' ? '500+' : '50k+'}</div>
-                <div className="text-sm text-muted-foreground">{selectedProduct === 'pro' ? 'Professionals' : 'Active Users'}</div>
+                <div className="text-sm text-muted-foreground"><T>{selectedProduct === 'pro' ? 'Professionals' : 'Active Users'}</T></div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-primary">{selectedProduct === 'pro' ? '10k+' : '1M+'}</div>
-                <div className="text-sm text-muted-foreground">{selectedProduct === 'pro' ? 'Clients Managed' : 'Workouts Done'}</div>
+                <div className="text-sm text-muted-foreground"><T>{selectedProduct === 'pro' ? 'Clients Managed' : 'Workouts Done'}</T></div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-primary">{selectedProduct === 'pro' ? '95%' : '98%'}</div>
-                <div className="text-sm text-muted-foreground">Success Rate</div>
+                <div className="text-sm text-muted-foreground"><T>Success Rate</T></div>
               </div>
             </div>
           </div>
