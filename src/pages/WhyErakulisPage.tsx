@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Brain, Zap, Target, TrendingUp, Activity, Calendar, Smartphone, BarChart3, Users, CheckCircle, ArrowRight, Star, Heart, Rocket, Handshake, Sprout, Shield, Clock, Award, Lightbulb, Infinity } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { T } from "@/hooks/useTranslation";
 import womanLaptopWellness from "@/assets/woman-laptop-wellness.jpg";
 import personLightbulb from "@/assets/person-lightbulb.jpg";
 import womanWorkingLaptop from "@/assets/woman-working-laptop.jpg";
@@ -160,14 +161,13 @@ const WhyErakulisPage = () => {
         <div className="container mx-auto px-4 md:px-6 md:py-24 relative z-10 py-[80px]">
           <div className="text-center space-y-4 md:space-y-8 max-w-6xl mx-auto">
             <Badge variant="secondary" className="text-xs md:text-sm px-3 md:px-4 py-1 md:py-2">
-              The Science of Longevity
+              <T>The Science of Longevity</T>
             </Badge>
             <h1 className="text-3xl md:text-4xl lg:text-6xl xl:text-7xl font-bold bg-gradient-to-r from-white via-primary to-secondary bg-clip-text text-transparent leading-tight px-2">
-              Fitness × Nutrition × Wellbeing = Longevity
+              <T>Fitness × Nutrition × Wellbeing = Longevity</T>
             </h1>
             <p className="text-base md:text-xl lg:text-2xl text-slate-300 max-w-5xl mx-auto leading-relaxed px-4">
-              "You don't need to be perfect, you just need to be consistent. 
-              When you take care of your body and mind every day, life becomes easier."
+              <T>"You don't need to be perfect, you just need to be consistent. When you take care of your body and mind every day, life becomes easier."</T>
               <span className="block text-sm md:text-lg text-slate-400 mt-2 md:mt-4 font-medium">— Cristiano Ronaldo</span>
             </p>
             
@@ -175,28 +175,28 @@ const WhyErakulisPage = () => {
             <div className="flex flex-wrap justify-center items-center gap-3 md:gap-6 pt-4 md:pt-8 px-4">
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 md:w-3 md:h-3 bg-primary rounded-full animate-pulse"></div>
-                <span className="text-xs md:text-sm text-slate-400 font-medium">Evidence-Based</span>
+                <span className="text-xs md:text-sm text-slate-400 font-medium"><T>Evidence-Based</T></span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 md:w-3 md:h-3 bg-secondary rounded-full animate-pulse"></div>
-                <span className="text-xs md:text-sm text-slate-400 font-medium">Holistic Approach</span>
+                <span className="text-xs md:text-sm text-slate-400 font-medium"><T>Holistic Approach</T></span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 md:w-3 md:h-3 bg-primary rounded-full animate-pulse"></div>
-                <span className="text-xs md:text-sm text-slate-400 font-medium">Sustainable Results</span>
+                <span className="text-xs md:text-sm text-slate-400 font-medium"><T>Sustainable Results</T></span>
               </div>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center pt-4 md:pt-8 px-4">
               <Button size="lg" className="text-base md:text-lg px-6 md:px-8 py-4 md:py-6" asChild>
                 <a href="https://erakulis.com/en-GB/signup" target="_blank" rel="noopener noreferrer">
-                  Start Your Journey
+                  <T>Start Your Journey</T>
                   <ArrowRight className="w-4 h-4 md:w-5 md:h-5 ml-2" />
                 </a>
               </Button>
               <Button variant="outline" size="lg" className="text-base md:text-lg px-6 md:px-8 py-4 md:py-6" asChild>
                 <a href="https://hub.erakulis.com" target="_blank" rel="noopener noreferrer">
-                  Explore Erakulis Hub
+                  <T>Explore Erakulis Hub</T>
                 </a>
               </Button>
             </div>
@@ -209,9 +209,9 @@ const WhyErakulisPage = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              The Science of Healthy Aging
+              <T>The Science of Healthy Aging</T>
             </h2>
-            <p className="text-muted-foreground max-w-3xl mx-auto text-xs">Research shows that integrating fitness, nutrition, and mental wellness is key to extend healthspan. Erakulis makes this science accessible and actionable.</p>
+            <p className="text-muted-foreground max-w-3xl mx-auto text-xs"><T>Research shows that integrating fitness, nutrition, and mental wellness is key to extend healthspan. Erakulis makes this science accessible and actionable.</T></p>
           </div>
 
           {/* Mobile: Custom layout with Healthspan Extension in center */}
@@ -222,7 +222,7 @@ const WhyErakulisPage = () => {
                     <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-2">
                       <benefit.icon className="w-4 h-4 text-primary" />
                     </div>
-                    <p className="text-muted-foreground text-xs leading-tight">{benefit.description}</p>
+                    <p className="text-muted-foreground text-xs leading-tight"><T>{benefit.description}</T></p>
                   </CardContent>
                 </Card>)}
             </div>
@@ -237,7 +237,7 @@ const WhyErakulisPage = () => {
                     return <IconComponent className="w-5 h-5 text-primary" />;
                   })()}
                   </div>
-                  <p className="text-muted-foreground text-xs leading-tight font-medium">{longevityBenefits[4].description}</p>
+                  <p className="text-muted-foreground text-xs leading-tight font-medium"><T>{longevityBenefits[4].description}</T></p>
                 </CardContent>
               </Card>
             </div>
@@ -248,7 +248,7 @@ const WhyErakulisPage = () => {
                     <div className="w-8 h-8 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-2">
                       <benefit.icon className="w-4 h-4 text-primary" />
                     </div>
-                    <p className="text-muted-foreground text-xs leading-tight">{benefit.description}</p>
+                    <p className="text-muted-foreground text-xs leading-tight"><T>{benefit.description}</T></p>
                   </CardContent>
                 </Card>)}
             </div>
@@ -261,7 +261,7 @@ const WhyErakulisPage = () => {
                   <div className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
                     <benefit.icon className="w-5 h-5 text-primary" />
                   </div>
-                  <p className="text-muted-foreground text-xs leading-tight">{benefit.description}</p>
+                  <p className="text-muted-foreground text-xs leading-tight"><T>{benefit.description}</T></p>
                 </CardContent>
               </Card>)}
           </div>
@@ -273,13 +273,13 @@ const WhyErakulisPage = () => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-8 md:mb-16">
             <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-6 px-2">
-              Our{" "}
+              <T>Our</T>{" "}
               <span className="text-primary">
-                Core Pillars
+                <T>Core Pillars</T>
               </span>
             </h2>
             <p className="text-base md:text-xl text-muted-foreground max-w-4xl mx-auto px-4">
-              Three pillars to guide your wellness journey toward optimal health and longevity
+              <T>Three pillars to guide your wellness journey toward optimal health and longevity</T>
             </p>
           </div>
 
@@ -298,17 +298,17 @@ const WhyErakulisPage = () => {
                   {/* Content */}
                   <div className="relative z-10">
                     <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-1 md:mb-2 group-hover:text-primary transition-colors">
-                      {pillar.title}
+                      <T>{pillar.title}</T>
                     </h3>
                     <p className="text-muted-foreground mb-3 md:mb-4 lg:mb-6 font-medium text-sm md:text-sm lg:text-base">
-                      {pillar.subtitle}
+                      <T>{pillar.subtitle}</T>
                     </p>
 
                     {/* Features List */}
                     <ul className="space-y-1 md:space-y-2 lg:space-y-3">
                       {pillar.features.map((feature, featureIndex) => <li key={featureIndex} className="flex items-start gap-2 md:gap-2 lg:gap-3">
                           <div className={`w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-gradient-to-r ${pillar.gradient} mt-1 md:mt-1.5 lg:mt-2 flex-shrink-0`}></div>
-                          <span className="text-xs md:text-sm text-foreground leading-tight">{feature}</span>
+                          <span className="text-xs md:text-sm text-foreground leading-tight"><T>{feature}</T></span>
                         </li>)}
                     </ul>
                   </div>
@@ -323,11 +323,11 @@ const WhyErakulisPage = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-8 md:mb-16">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-6 px-2">
-              Built for Every Wellness Journey
+              <T>Built for Every Wellness Journey</T>
             </h2>
             <div className="text-center space-y-4">
               <p className="text-base md:text-xl text-muted-foreground max-w-5xl mx-auto px-4">
-                Choose your path to wellness mastery
+                <T>Choose your path to wellness mastery</T>
               </p>
               <div className="flex justify-center">
                 <div className="animate-bounce">
