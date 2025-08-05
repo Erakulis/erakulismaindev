@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { T } from "@/hooks/useTranslation";
 
 const PricingModelSection = () => {
   const pricingSteps = [
@@ -32,10 +33,10 @@ const PricingModelSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Our Model
+            <T>Our Model</T>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Performance-based pricing that ensures you only pay when we deliver measurable results.
+            <T>Performance-based pricing that ensures you only pay when we deliver measurable results.</T>
           </p>
         </div>
         
@@ -44,19 +45,19 @@ const PricingModelSection = () => {
             <Card key={index} className={`p-8 relative ${step.highlight ? 'ring-2 ring-primary shadow-glow' : ''} hover:shadow-medium transition-all duration-300`}>
               {step.highlight && (
                 <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-primary-foreground">
-                  Pay on Results
+                  <T>Pay on Results</T>
                 </Badge>
               )}
               
               <div className="space-y-6">
                 <div className="text-4xl font-bold text-primary">{step.number}</div>
-                <h3 className="text-2xl font-bold">{step.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{step.description}</p>
+                <h3 className="text-2xl font-bold"><T>{step.title}</T></h3>
+                <p className="text-muted-foreground leading-relaxed"><T>{step.description}</T></p>
                 <Button 
                   variant={step.highlight ? "default" : "outline"} 
                   className="w-full text-lg py-6"
                 >
-                  {step.cta}
+                  <T>{step.cta}</T>
                 </Button>
               </div>
             </Card>
@@ -65,12 +66,12 @@ const PricingModelSection = () => {
         
         {/* Final CTA */}
         <Card className="p-12 text-center bg-gradient-card">
-          <h3 className="text-3xl font-bold mb-6">Ready to Transform Your Business?</h3>
+          <h3 className="text-3xl font-bold mb-6"><T>Ready to Transform Your Business?</T></h3>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Schedule a discovery call to learn how Erakulis can support your business.
+            <T>Schedule a discovery call to learn how Erakulis can support your business.</T>
           </p>
           <Button size="lg" className="text-lg px-12 py-6">
-            Schedule Discovery Call
+            <T>Schedule Discovery Call</T>
           </Button>
         </Card>
       </div>

@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { T } from "@/hooks/useTranslation";
 
 const WellnessSuiteSection = () => {
   const features = [
@@ -44,11 +45,10 @@ const WellnessSuiteSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-            Your Complete Wellness Suite
+            <T>Your Complete Wellness Suite</T>
           </h2>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-            Erakulis gives you all the tools your business needs to reduce costs, 
-            mitigate risks, and maximize organizational performance.
+            <T>Erakulis gives you all the tools your business needs to reduce costs, mitigate risks, and maximize organizational performance.</T>
           </p>
         </div>
         
@@ -56,11 +56,11 @@ const WellnessSuiteSection = () => {
           {features.map((feature, index) => (
             <Card key={index} className="p-6 hover:shadow-medium transition-all duration-300">
               <div className="space-y-4">
-                <h3 className="text-xl font-bold">{feature.title}</h3>
-                <p className="text-muted-foreground">{feature.description}</p>
+                <h3 className="text-xl font-bold"><T>{feature.title}</T></h3>
+                <p className="text-muted-foreground"><T>{feature.description}</T></p>
                 {feature.tag && (
                   <Badge variant="outline" className="w-fit">
-                    {feature.tag}
+                    <T>{feature.tag}</T>
                   </Badge>
                 )}
               </div>
@@ -72,7 +72,7 @@ const WellnessSuiteSection = () => {
         <div className="mt-16 text-center">
           <div className="inline-block">
             <div className="text-6xl font-bold text-primary mb-4">95%</div>
-            <p className="text-lg text-muted-foreground">Success Rate</p>
+            <p className="text-lg text-muted-foreground"><T>Success Rate</T></p>
           </div>
         </div>
       </div>
